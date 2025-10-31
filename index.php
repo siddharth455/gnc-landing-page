@@ -20,6 +20,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
 </head>
 <body>
   <!-- Hero / Banner -->
@@ -569,42 +570,9 @@ document.addEventListener("DOMContentLoaded", function(){
   observer.observe(campusSection);
 </script>
 <?php require "sample.php"; ?>
-  <!-- Apply / Contact Section -->
-  <section id="apply" class="py-5">
-    <div class="container">
-      <h2 class="text-center mb-4" data-aos="fade-up">Apply Now / Contact Us</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-8" data-aos="fade-up" data-aos-delay="100">
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Full Name</label>
-              <input type="text" id="name" class="form-control" placeholder="Your Name" required />
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" id="email" class="form-control" placeholder="Your Email" required />
-            </div>
-            <div class="mb-3">
-              <label for="phone" class="form-label">Phone Number</label>
-              <input type="tel" id="phone" class="form-control" placeholder="Mobile Number" required />
-            </div>
-            <div class="mb-3">
-              <label for="program-select" class="form-label">Select Program / School</label>
-              <select id="program-select" class="form-select">
-                <option value="">-- Select --</option>
-                <option value="nursing">Post Basic B.Sc Nursing</option>
-                <option value="bmlt">BMLT</option>
-                <option value="bca">BCA</option>
-                <!-- Add more options dynamically -->
-              </select>
-            </div>
-            <button type="submit" class="btn btn-primary w-100">Submit Application</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
+<?php require "vertical.php"; ?>
+<?php require "map.php"; ?>
+  
   <!-- Footer -->
   <footer>
     <div class="container text-center">
