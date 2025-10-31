@@ -708,7 +708,7 @@ document.addEventListener("DOMContentLoaded", function(){
     <div class="campus-slider">
       <div class="campus-slides">
         <img src="assets/image/1l.webp" class="campus-slide" />
-        <img src="assets/image/2l.webp" class="campus-slide" />
+        <img src="assets/image/lib.webp" class="campus-slide" />
         <img src="assets/image/3l.webp" class="campus-slide" />
         <img src="assets/image/4l.webp" class="campus-slide" />
         <img src="assets/image/5l.webp" class="campus-slide" />

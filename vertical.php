@@ -1,7 +1,7 @@
 <!-- section.php -->
 <section id="skills-showcase" class="skills-section">
   <h2>
-    Experience Top Notch Facilities for <br>
+    Empowering Students Through  <br>
     <span class="js-text-animation"></span>
   </h2>
 
@@ -9,12 +9,12 @@
     <!-- Left Side for Desktop -->
     <div class="skills-left">
       <ul>
-        <li data-img="skill-1.jpg" class="active">Exploring the Brain</li>
-        <li data-img="skill-2.jpg">Tiny Words Unveiled</li>
-        <li data-img="skill-3.jpg">Bones and Ambition</li>
-        <li data-img="skill-4.jpg">Nurture Nature's Gift</li>
-        <li data-img="skill-5.jpg">Health In Action</li>
-        <li data-img="skill-6.jpg">Heart in Hand</li>
+        <li data-img="lib.webp" class="active">Library</li>
+        <li data-img="lab.webp">Lab</li>
+        <li data-img="Class.webp">1:1 Mentorship</li>
+        <li data-img="Gnm_lab.webp">Nursing Excellence</li>
+        <li data-img="blood.webp">Community Commitment</li>
+        <li data-img="Yoga.webp">Yoga & Wellness</li>
       </ul>
     </div>
 
@@ -22,12 +22,12 @@
     <div class="skills-right">
       <?php 
         $skills = [
-          ["title" => "Exploring the Brain", "desc" => "A future neurologist examines a model skull, poised to discover the brain's secrets.", "img" => "skill-2.jpg"],
-          ["title" => "Tiny Words Unveiled", "desc" => "Microscopic wonders and linguistic breakthroughs in one frame.", "img" => "skill-3.jpg"],
-          ["title" => "Bones and Ambition", "desc" => "Hands steady, dreams sturdy — anatomy in motion.", "img" => "skill-4.jpg"],
-          ["title" => "Nurture Nature's Gift", "desc" => "Preserving the planet, one green thought at a time.", "img" => "skill-5.jpg"],
-          ["title" => "Health In Action", "desc" => "Dynamic moments from training labs to patient care.", "img" => "skill-7.jpg"],
-          ["title" => "Heart in Hand", "desc" => "Empathy meets precision — the art of healing.", "img" => "skill-6.jpg"],
+          ["title" => "Learning goes beyond classrooms", "desc" => "Spending time in the library,and gearing up for real-world challenges.", "img" => "lib.webp"],
+          ["title" => "Learning by Doing,Where Knowledge Meets Practice", "desc" => "B.Pharm students mastering concepts through hands-on, practical learning experiences.", "img" => "lab.webp"],
+          ["title" => "Building Bright Minds Through Classroom Learning", "desc" => "Students gaining knowledge and skills through focused classroom learning sessions.", "img" => "Class.webp"],
+          ["title" => "Pride in Practice, Excellence in Care", "desc" => "Our GNM students stand tall with confidence and compassion, ready to serve with skill and dedication.", "img" => "Gnm_lab.webp"],
+          ["title" => "Building a Culture of Care", "desc" => "Our students actively participate in blood donation drives, embodying compassion, responsibility, and the spirit of service to society.", "img" => "blood.webp"],
+          ["title" => "Yoga & Wellness", "desc" => "Empowering students to build mental strength and physical balance through expert-led sessions.", "img" => "Yoga.webp"],
         ];
 
         foreach ($skills as $index => $skill) {
@@ -130,6 +130,7 @@
     position: absolute;
     inset: 0;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     opacity: 0;
     transform: scale(1.05);
