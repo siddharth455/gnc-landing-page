@@ -326,25 +326,141 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">B.Sc Agriculture</h5>
-            <p class="card-text">4 Years | Fee: ₹55,000 / year</p>
+            <p>The Bachelor of Science in Agriculture (B.Sc. Agriculture) is an essential undergraduate program for those interested in the vast and dynamic field of agriculture. This four-year course is designed to provide an in-depth understanding of agricultural sciences and the latest technologies used in the sector.</p>
+            <p class="card-text">4 Years | Fee: ₹69,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
       <div class="col-md-4 filter-item agriculture" data-aos="zoom-in" data-aos-delay="100">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Diploma in Agriculture</h5>
-            <p class="card-text">2 Years | Fee: ₹35,000 / year</p>
+            <h5 class="card-title">B.Sc. Forestry</h5>
+            <p>This four-year course offers an extensive exploration of forest ecosystems, wildlife management, and the principles of silviculture. The curriculum includes subjects such as dendrology, forest economics, agroforestry, forest policy and law, and environmental impact assessment.</p>
+            <p class="card-text">4 Years | Fee: ₹69,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
-
+      <div class="col-md-4 filter-item agriculture" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">M.Sc Agriculture</h5>
+            <p>This two-year course provides an advanced understanding of crop science, soil fertility, sustainable agriculture practices, and the management of agricultural resources. The curriculum covers a range of specialized subjects including plant genetics, crop physiology, soil science, pest management, and agricultural biotechnology.</p>
+            <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
+          </div>
+        </div>
+      </div>
       <!-- Hidden Agriculture Courses -->
       <div class="col-md-4 filter-item agriculture hidden-course" style="display: none;">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">M.Sc Agriculture</h5>
-            <p class="card-text">2 Years | Fee: ₹65,000 / year</p>
+            <h5 class="card-title">M.Sc Horticulture</h5>
+            <p>The Master of Science in Horticulture (M.Sc. Horticulture) at Guru Nanak College, Dehradun, is a dynamic postgraduate program designed for individuals passionate about the cultivation of plants, garden and landscape design, and the study of plant species.</p>
+            <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
+          </div>
+        </div>
+      </div>
+      <!-- Nursing  -->
+      <div class="col-md-4 filter-item nursing" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Science in Nursing</h5>
+            <p class="card-text">The Bachelor of Science in Nursing (BSc Nursing) is a four-year undergraduate degree that prepares students for a career in nursing, a vital component of the healthcare sector. This program offers comprehensive education and training in nursing and healthcare practices, focusing on patient care, health promotion, and disease prevention.</p>
+            <p class="card-text">4 Years | Fee: ₹2,50,000 /- year (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 filter-item nursing" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">General Nursing and Midwifery</h5>
+          <p class="card-text">General Nursing and Midwifery (GNM) is an essential healthcare course designed for individuals aspiring to enter the nursing and midwifery profession. This diploma program, which usually spans three and a half years, encompasses a comprehensive curriculum that combines theoretical knowledge with extensive practical training.</p>
+          <p class="card-text">3 Years | Fee: ₹1,25,000 /- year (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 filter-item nursing" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Post Basic B.Sc. Nursing</h5>
+            <p class="card-text">Post Basic B.Sc. Nursing (PB-B.Sc.) is a two-year undergraduate programme designed to inculcate an in-depth understanding of advanced level nursing. Under this programme, aspirants brush up their learning to provide complete medical care to the patients.</p>
+            <p class="card-text">2 Years | Fee: ₹1,25,000 /- year (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
+      <!-- pharmacy  -->
+      <div class="col-md-4 filter-item pharmacy" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Pharmacy</h5>
+            <p class="card-text">The Bachelor of Pharmacy (B.Pharm) is a fundamental undergraduate degree for those interested in the pharmaceutical industry. This course, typically spanning four years, provides comprehensive education in the science and practice of pharmacy. It covers a range of subjects including pharmaceutical chemistry, pharmacology, pharmaceutics, and pharmacognosy.</p>
+            <p class="card-text">4 Years | Fee: ₹85,000 /- year (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 filter-item pharmacy" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Lateral Entry in Pharmacy</h5>
+          <p class="card-text">Lateral Entry into the Bachelor of Pharmacy (B.Pharm) program is a pathway designed for students who have already completed a Diploma in Pharmacy (D.Pharm) or a similar qualification.The program's focus is on advanced pharmaceutical sciences, covering critical subjects like pharmacology, pharmaceutical chemistry, and pharmaceutics.</p>
+          <p class="card-text">3 Years | Fee: ₹85,000 /- year (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 filter-item pharmacy" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Diploma in Pharmacy</h5>
+            <p class="card-text">The Diploma in Pharmacy (D.Pharma) is a comprehensive two-year course designed for students interested in entering the pharmaceutical sector. This program provides a foundational understanding of pharmaceutical sciences, covering key areas such as pharmacology, pharmaceutical chemistry, pharmacognosy, and pharmaceutics.</p>
+            <p class="card-text">2 Years | Fee: ₹65,000 /- year (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
+      <!-- health Science  -->
+      <div class="col-md-4 filter-item health" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Public Health</h5>
+            <p class="card-text">The Master of Public Health (MPH) is an advanced graduate degree essential for professionals aspiring to impact public health and wellness. A two-year program, the MPH curriculum is designed to provide students with a comprehensive understanding of public health principles and practices.</p>
+            <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 filter-item health" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Hospitak Administration</h5>
+            <p class="card-text">The Master of Hospital Administration (MHA) is an advanced postgraduate program designed for individuals aspiring to lead and manage healthcare organizations. It equips students with the essential knowledge of hospital operations, healthcare policies, and strategic management.</p>
+            <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
+          </div>
+        </div>
+      </div>
+      <!-- computer science  -->
+      <div class="col-md-4 filter-item cs" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Computer Application</h5>
+            <p class="card-text">The BCA program covers a wide spectrum of topics including, but not limited to, fundamentals of computer systems, software development, programming languages (like C, C++, Java), web technologies, operating systems, and digital marketing.</p>
+            <p class="card-text">3 Years | Fee: ₹45,000 /- year (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
+      <!-- business school  -->
+      <div class="col-md-4 filter-item business" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Business Administration</h5>
+            <p class="card-text">The BBA curriculum is structured to provide a solid foundation in business principles, coupled with the development of practical skills essential for success in the business world,Students aspiring to excel in the field of business and management</p>
+            <p class="card-text">3 Years | Fee: ₹45,000 /- year (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
+      <!-- hotel management  -->
+      <div class="col-md-4 filter-item hotel" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Diploma in Hotel Management</h5>
+            <p class="card-text">This program is designed for those seeking to dive into the vibrant world of hospitality. In just one year, you will gain a comprehensive understanding of hotel operations, including front office management, housekeeping, and food and beverage service.</p>
+            <p class="card-text">1 Year | Fee: ₹70,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
@@ -352,7 +468,7 @@
 
     <!-- View More Button -->
     <div class="text-center mt-4">
-      <button id="viewMoreBtn" class="btn btn-primary">View More</button>
+      <button id="viewMoreBtn" class="btn btn-primary">View More Course</button>
     </div>
   </div>
 </section>
@@ -388,7 +504,7 @@
     // Show View More button only if there are more than 3 courses
     const hiddenCount = document.querySelectorAll(`.${filter}.hidden-course`).length;
     viewMoreBtn.style.display = (hiddenCount > 0) ? 'inline-block' : 'none';
-    viewMoreBtn.textContent = 'View More';
+    viewMoreBtn.textContent = 'View More Course';
   }
 
   filterBtns.forEach(btn => {
@@ -405,7 +521,7 @@
     hiddenCourses.forEach(course => {
       course.style.display = isVisible ? 'none' : 'block';
     });
-    viewMoreBtn.textContent = isVisible ? 'View More' : 'View Less';
+    viewMoreBtn.textContent = isVisible ? 'View More Course' : 'View Less';
   });
 
   filterCourses(currentFilter);
