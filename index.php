@@ -268,19 +268,42 @@
       </div>
 
       <!-- Hidden Paramedical Courses -->
-      <div class="col-md-4 filter-item paramedical hidden-course" style="display: none;">
+      <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">DMLT (Diploma in Lab Tech)</h5>
-            <p class="card-text">2 Years | Fee: ₹55,000 / year</p>
+            <h5 class="card-title">Bachelor of Optometry (BSc Optometry)</h5>
+            <p class="card-text">BSc Optometry is a four-year undergraduate course training students to become eye care professionals skilled in vision testing, prescribing lenses, and diagnosing or treating various eye conditions and disorders.</p>
+            <p class="card-text">3+1 Years | Fee: ₹65,000 /- (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
       <div class="col-md-4 filter-item paramedical hidden-course" style="display: none;">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">BRIT (Radiology & Imaging Tech)</h5>
-            <p class="card-text">3 Years | Fee: ₹60,000 / year</p>
+            <h5 class="card-title">Bachelor of Operation Theatre Technology</h5>
+            <p class="card-text">The Bachelor of Operation Theatre Technology (BOTT) program trains students in surgical assistance, equipment handling, anesthesia techniques, and operation theatre management, preparing them to ensure safety and efficiency in healthcare environments.</p>
+            <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
+          </div>
+        </div>
+      </div>
+      
+
+       <div class="col-md-4 filter-item paramedical hidden-course" style="display: none;">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master in Medical Laboratory Technology</h5>
+            <p class="card-text">The Master in Medical Laboratory Technology (MMLT) is a two-year postgraduate course focusing on anatomy, physiology, biochemistry, microbiology, pathology, and hematology to build advanced expertise in laboratory medicine and diagnostics.</p>
+            <p class="card-text">2 Years | Fee: ₹65,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master in Physiotherapy (MPT)</h5>
+            <p class="card-text">The Master in Physiotherapy (MPT) is a postgraduate program offering specialized training in sports, orthopedics, or neurology, developing clinical skills to rehabilitate patients with movement disorders, injuries, and physical disabilities.</p>
+            <p class="card-text">2 Years | Fee: ₹75,000 /- (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
@@ -290,7 +313,8 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">B.Sc Microbiology</h5>
-            <p class="card-text">3 Years | Fee: ₹45,000 / year</p>
+            <p class="card-text">The Bachelor of Science in Microbiology program at the School of Life & Allied Sciences, Guru Nanak College, Dehradun, is an undergraduate course designed for students interested in the study of microorganisms and their impact on humans, animals, plants, and the environment.</p>
+            <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
       </div>
@@ -298,29 +322,115 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">B.Sc Biotechnology</h5>
-            <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
+            <p class="card-text">This three-year program offers a comprehensive study of the application of biological systems and organisms to develop new technologies and products that help improve our lives and the health of our planet.</p>
+            <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
       </div>
       <div class="col-md-4 filter-item life" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">B.Sc Zoology</h5>
-            <p class="card-text">3 Years | Fee: ₹40,000 / year</p>
+            <h5 class="card-title">Bachelor of Science in Food Technology</h5>
+             <p class="card-text">This three-year program focuses on the application of food science and technology in the processing, preservation, packaging, distribution, and use of safe, nutritious, and wholesome food.</p>
+            <p class="card-text">3 Years | Fee: ₹60,000 / year</p>
           </div>
         </div>
       </div>
+
+     
 
       <!-- Hidden Life Courses -->
-      <div class="col-md-4 filter-item life hidden-course" style="display: none;">
+       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">B.Sc Botany</h5>
-            <p class="card-text">3 Years | Fee: ₹40,000 / year</p>
+            <h5 class="card-title">Bachelor of Science in PCM</h5>
+             <p class="card-text">For the B.Sc. PCM program, students delve into the dynamic realms of Physics, Chemistry, and Mathematics. Physics courses explore the fundamental principles governing matter, energy, and their interactions, delving into topics such as mechanics, electromagnetism, and quantum mechanics</p>
+            <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
           </div>
         </div>
       </div>
 
+       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Science in CBZ</h5>
+             <p class="card-text">B.Sc. in Chemistry, Botany, Zoology (CBZ) is a meticulously designed three-year course for students with a deep interest in the natural sciences, providing a comprehensive educational experience in these fundamental disciplines. </p>
+            <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
+          </div>
+        </div>
+      </div>
+      
+       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Science in Geology</h5>
+             <p class="card-text">The Bachelor of Science in Geology program at Guru Nanak College, Dehradun, is an undergraduate course tailored for students interested in the study of the Earth, its materials, processes, history, and its impact on humans and life in general </p>
+            <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+     
+
+      <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Science in Microbiology</h5>
+             <p class="card-text">Students who wish to deepen their understanding and expertise in the field of microbiology. This two-year program offers an advanced study of microorganisms and their interactions with humans, animals, plants, and the environment.</p>
+            <p class="card-text">2 Years | Fee: ₹60,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Science in FoodTechnology</h5>
+             <p class="card-text">Students aiming to specialize in the science of food processing and technology. This two-year program offers advanced knowledge and skills related to the processing, preservation, quality control, and safety of food products</p>
+            <p class="card-text">2 Years | Fee: ₹60,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Science in Chemistry</h5>
+             <p class="card-text">Students who wish to deepen their understanding and expertise in the field of chemistry. This two-year program offers an advanced exploration of various branches of chemistry including organic, inorganic, physical, analytical, and industrial chemistry.</p>
+            <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Science in Physics</h5>
+             <p class="card-text">Students who are passionate about exploring the fundamental principles of the universe. This two-year program delves into advanced concepts of theoretical and applied physics, covering areas such as quantum mechanics, classical mechanics, electromagnetism, thermodynamics, and nuclear physics.</p>
+            <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Science in Botany</h5>
+             <p class="card-text">Students interested in the comprehensive study of home management, nutrition, human development, textiles, and family resource management. This three-year program offers a blend of theory and practical knowledge aimed at improving the quality of life for individuals, families, and communities.</p>
+            <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Science in Zoology</h5>
+             <p class="card-text">Students who are passionate about studying animals and their biological processes. This two-year program offers an in-depth understanding of various aspects of animal science, including animal behavior, physiology, taxonomy, ecology, and conservation.</p>
+            <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
+          </div>
+        </div>
+      </div>
       <!-- Agriculture Courses -->
       <div class="col-md-4 filter-item agriculture" data-aos="zoom-in">
         <div class="card course-card h-100">
