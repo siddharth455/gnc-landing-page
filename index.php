@@ -538,11 +538,7 @@
       </div>
       
     </div>
-
-    
-
-
-
+   
     <!-- View More Button -->
     <div class="text-center mt-4">
       <button id="viewMoreBtn" class="btn btn-primary">View More</button>
