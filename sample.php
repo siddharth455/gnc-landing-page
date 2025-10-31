@@ -1,4 +1,8 @@
 <!-- 🌟 GNC 3D Logo Carousel -->
+<h2 class="gnc-main-heading container mb-5 mt-2">
+Vibrant Campus Life, <br>
+      <span>Where learning meets laughter, culture, and community.</span>
+    </h2>
 <div class="gnc-stage" id="gnc-carousel-section">
   <div class="gnc-container-wrapper">
     <div class="gnc-container">
@@ -17,7 +21,6 @@
     </div>
   </div>
 </div>
-
 <style>
 /* ==== Base ==== */
 html, body {
@@ -53,7 +56,7 @@ html, body {
 
 /* 3D container */
 .gnc-container {
-  perspective: 2500px;
+  perspective: 3000px;
   width: 300px; /* same image size */
   height: 400px;
   position: relative;
@@ -87,13 +90,13 @@ html, body {
 let gncXPos = 0;
 
 const gncImagePaths = [
-  "assets/image/1l.webp",
-  "assets/image/2l.webp",
-  "assets/image/3l.webp",
-  "assets/image/4l.webp",
-  "assets/image/5l.webp",
-  "assets/image/6l.webp",
-  "assets/image/4.webp"
+  "assets/image/event-1.webp",
+  "assets/image/event-2.webp",
+  "assets/image/event-3.webp",
+  "assets/image/event-4.webp",
+  "assets/image/event-5.webp",
+  "assets/image/event-6.webp",
+  "assets/image/event-7.webp"
 ];
 
 gsap.timeline()

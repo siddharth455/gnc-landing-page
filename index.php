@@ -34,17 +34,16 @@
 
         <!-- Slide 1 -->
         <div class="swiper-slide">
-          <img src="assets/image/banner-1-nursing.jpg" alt="DIS Mobile Banner" class="banner-image w-100">
+          <img src="assets/image/banner-3.webp" alt="DIS Mobile Banner" class="banner-image w-100">
           <!-- Bottom Left Overlay -->
           <div class="banner-overlay position-absolute bottom-0 start-0 text-white p-4">
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center logo-para">
               <div class="overlay-logo me-3">
                 <img src="assets/image/logo.webp" alt="Overlay Logo" class="logo-img-bottom">
               </div>
               <div class="overlay-text">
-                <h2>World Class
-                  Infrastructure & Facilities</h2>
-                <p>— Explore & Start your journey</p>
+                <h2>School of Nursing</h2>
+                <p>— Admission Open 2026-27</p>
               </div>
             </div>
           </div>
@@ -52,14 +51,14 @@
 
         <!-- Slide 2 -->
         <div class="swiper-slide">
-          <img src="assets/image/banner-1-agriculture.webp" alt="DIS Mobile Banner" class="banner-image w-100">
+          <img src="assets/image/banner-1.webp" alt="DIS Mobile Banner" class="banner-image w-100">
           <div class="banner-overlay position-absolute bottom-0 start-0 text-white p-4">
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center logo-para">
               <div class="overlay-logo me-3">
                 <img src="assets/image/logo.webp" alt="Overlay Logo" class="logo-img-bottom">
               </div>
               <div class="overlay-text">
-                <h2>Largest & most modern <br>Auditoruim in Uttarakhand</h2>
+                <h2>School of Paramedical</h2>
                 <p>— Admission Open 2026-27</p>
               </div>
             </div>
@@ -68,15 +67,14 @@
 
         <!-- Slide 3 -->
         <div class="swiper-slide">
-          <img src="assets/image/banner-2-business.webp" alt="DIS Mobile Banner" class="banner-image w-100">
+          <img src="assets/image/banner-2.webp" alt="DIS Mobile Banner" class="banner-image w-100">
           <div class="banner-overlay position-absolute bottom-0 start-0 text-white p-4">
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center logo-para">
               <div class="overlay-logo me-3">
                 <img src="assets/image/logo.webp" alt="Overlay Logo" class="logo-img-bottom">
               </div>
               <div class="overlay-text">
-                <h2>Inspiring Minds<br>
-                  Nurturing Environment</h2>
+                <h2>School of Computer Science</h2>
                 <p>— Admission Open 2026-27</p>
               </div>
             </div>
@@ -85,16 +83,15 @@
 
         <!-- slider 4  -->
         <div class="swiper-slide">
-          <img src="assets/image/banner-2-computer.webp" alt="DIS Mobile Banner" class="banner-image w-100">
+          <img src="assets/image/banner-4.webp" alt="DIS Mobile Banner" class="banner-image w-100">
           <div class="banner-overlay position-absolute bottom-0 start-0 text-white p-4">
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center logo-para">
               <div class="overlay-logo me-3">
                 <img src="assets/image/logo.webp" alt="Overlay Logo" class="logo-img-bottom">
               </div>
               <div class="overlay-text">
-                <h2>Co-Ed Boarding <br>
-                  & Day Boarding School</h2>
-                <p>— Residential School for Boys & Girls</p>
+                <h2>School of Pharmacy</h2>
+                <p>— Admission Open 2026-27</p>
               </div>
             </div>
           </div>
@@ -102,15 +99,14 @@
 
         <!-- slider 5  -->
         <div class="swiper-slide">
-          <img src="assets/image/banner-1-health.webp" alt="DIS Mobile Banner" class="banner-image w-100">
+          <img src="assets/image/banner-5.webp" alt="DIS Mobile Banner" class="banner-image w-100">
           <div class="banner-overlay position-absolute bottom-0 start-0 text-white p-4">
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center logo-para">
               <div class="overlay-logo me-3">
                 <img src="assets/image/logo.webp" alt="Overlay Logo" class="logo-img-bottom">
               </div>
               <div class="overlay-text">
-                <h2>State of the <br>
-                  Art Sports Facilities</h2>
+                <h2>School of Health Science</h2>
                 <p>— Admission Open 2026-27</p>
               </div>
             </div>
@@ -119,16 +115,57 @@
 
         <!-- slider 6  -->
         <div class="swiper-slide">
-          <img src="assets/image/banner-1-life.webp" alt="DIS Mobile Banner" class="banner-image w-100">
+          <img src="assets/image/banner-6.webp" alt="DIS Mobile Banner" class="banner-image w-100">
           <div class="banner-overlay position-absolute bottom-0 start-0 text-white p-4">
-            <div class="d-flex align-items-center">
+            <div class="d-flex align-items-center logo-para">
               <div class="overlay-logo me-3">
                 <img src="assets/image/logo.webp" alt="Overlay Logo" class="logo-img-bottom">
               </div>
               <div class="overlay-text">
-                <h2>A School THAT <br>
-                  BREEDS EXCELLENCE</h2>
-                <p>— Boarding School Admission 2026-27</p>
+                <h2>School of Business</h2>
+                <p>— Admission Open 2026-27</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/image/banner-7.webp" alt="DIS Mobile Banner" class="banner-image w-100">
+          <div class="banner-overlay position-absolute bottom-0 start-0 text-white p-4">
+            <div class="d-flex align-items-center logo-para">
+              <div class="overlay-logo me-3">
+                <img src="assets/image/logo.webp" alt="Overlay Logo" class="logo-img-bottom">
+              </div>
+              <div class="overlay-text">
+                <h2>School of Agriculture Science</h2>
+                <p>— Admission Open 2026-27</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/image/banner-8.webp" alt="DIS Mobile Banner" class="banner-image w-100">
+          <div class="banner-overlay position-absolute bottom-0 start-0 text-white p-4">
+            <div class="d-flex align-items-center logo-para">
+              <div class="overlay-logo me-3">
+                <img src="assets/image/logo.webp" alt="Overlay Logo" class="logo-img-bottom">
+              </div>
+              <div class="overlay-text">
+                <h2>School of Life & Allied Science</h2>
+                <p>— Admission Open 2026-27</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/image/banner-9.webp" alt="DIS Mobile Banner" class="banner-image w-100">
+          <div class="banner-overlay position-absolute bottom-0 start-0 text-white p-4">
+            <div class="d-flex align-items-center logo-para">
+              <div class="overlay-logo me-3">
+                <img src="assets/image/logo.webp" alt="Overlay Logo" class="logo-img-bottom">
+              </div>
+              <div class="overlay-text">
+                <h2>School of Hotel Management</h2>
+                <p>— Admission Open 2026-27</p>
               </div>
             </div>
           </div>
@@ -156,6 +193,28 @@
     });
   </script>
   </section>
+<!-- Floating Social Column -->
+<div class="floating-social">
+  <a href="https://wa.me/917300900900" target="_blank" class="social-icon whatsapp" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="tel:+917300900900" class="social-icon call" title="Call Now">
+    <i class="fas fa-phone-alt"></i>
+  </a>
+  <a href="https://www.instagram.com/gncdehradun/" target="_blank" class="social-icon instagram" title="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.facebook.com/gncmh" target="_blank" class="social-icon facebook" title="Facebook">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://www.linkedin.com/company/gncdehradun/" target="_blank" class="social-icon linkedin" title="LinkedIn">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="https://www.youtube.com/@gncdehradun" target="_blank" class="social-icon youtube" title="YouTube">
+    <i class="fab fa-youtube"></i>
+  </a>
+</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- Programs / Schools Section -->
  <section id="programs" class="py-5 ">
@@ -450,34 +509,37 @@ document.addEventListener("DOMContentLoaded", function(){
 </script>
 <?php require "placement.php"; ?>
   <!-- Campus Life / Gallery Section -->
-  <section id="campus" class="py-5">
+  <section id="gnc-campus" class="py-5">
   <div class="container text-white gnc-campus-wrapper">
-    <h2 class="gnc-main-heading mb-5 mt-2">
+    <h2 class="gnc-main-heading mb-5 mt-2 text-center">
       Facilities at GNC, <br>
       <span>Modern facilities for excellence at GNC College.</span>
     </h2>
 
-    <div class="campus-slider">
-      <div class="campus-slides">
-        <img src="assets/image/1l.webp" class="campus-slide" />
-        <img src="assets/image/2l.webp" class="campus-slide" />
-        <img src="assets/image/3l.webp" class="campus-slide" />
-        <img src="assets/image/4l.webp" class="campus-slide" />
-        <img src="assets/image/5l.webp" class="campus-slide" />
-        <img src="assets/image/6l.webp" class="campus-slide" />
+    <div class="gnc-campus-slider">
+      <div class="gnc-campus-slides">
+        <img src="assets/image/computer-lab.webp" class="gnc-campus-slide" />
+        <img src="assets/image/2l.webp" class="gnc-campus-slide" />
+        <img src="assets/image/3l.webp" class="gnc-campus-slide" />
+        <img src="assets/image/4l.webp" class="gnc-campus-slide" />
+        <img src="assets/image/5l.webp" class="gnc-campus-slide" />
+        <img src="assets/image/6l.webp" class="gnc-campus-slide" />
       </div>
 
-      <div class="campus-bottom-center">
-        <h3 class="luxury-heading"></h3>
-        <p class="luxury-subtitle"></p>
+      <!-- ✅ FIXED: Centered Overlay Content -->
+      <div class="gnc-campus-overlay">
+        <div class="gnc-campus-text">
+          <h3 class="gnc-campus-heading"></h3>
+          <p class="gnc-campus-subtitle"></p>
+        </div>
 
-        <div class="indicators">
-          <span class="campus-dot active"></span>
-          <span class="campus-dot"></span>
-          <span class="campus-dot"></span>
-          <span class="campus-dot"></span>
-          <span class="campus-dot"></span>
-          <span class="campus-dot"></span>
+        <div class="gnc-campus-dots">
+          <span class="gnc-dot active"></span>
+          <span class="gnc-dot"></span>
+          <span class="gnc-dot"></span>
+          <span class="gnc-dot"></span>
+          <span class="gnc-dot"></span>
+          <span class="gnc-dot"></span>
         </div>
       </div>
     </div>
@@ -485,46 +547,129 @@ document.addEventListener("DOMContentLoaded", function(){
 </section>
 
 <style>
-/* Animation initial state */
+/* ========================= */
+/* Animation for entry */
+/* ========================= */
 .gnc-campus-wrapper {
   opacity: 0;
   transform: translateY(50px);
   transition: all 0.8s ease-out;
 }
 
-/* Animation visible state */
 .gnc-campus-wrapper.visible {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Campus slider styles (keep your existing styles) */
-.campus-slider { overflow: hidden; position: relative; }
-.campus-slides { display: flex; transition: transform 0.5s ease-in-out; }
-.campus-slide { min-width: 100%; display: block; border-radius: 12px; margin-bottom: 20px; }
-.campus-bottom-center { text-align: center; margin-top: 15px; opacity: 0; transition: opacity 0.5s ease; }
-.campus-bottom-center.show { opacity: 1; }
-.campus-dot { display: inline-block; width: 10px; height: 10px; background: #fff; border-radius: 50%; margin: 0 5px; cursor: pointer; opacity: 0.5; transition: opacity 0.3s; }
-.campus-dot.active { opacity: 1; }
+/* ========================= */
+/* Slider Core */
+/* ========================= */
+.gnc-campus-slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.gnc-campus-slides {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.gnc-campus-slide {
+  min-width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+/* ========================= */
+/* Centered Overlay Text */
+/* ========================= */
+.gnc-campus-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(46, 46, 46, 0));
+  pointer-events: none; /* so clicks go through except dots */
+}
+
+.gnc-campus-text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.7s ease;
+}
+
+.gnc-campus-text.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.gnc-campus-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+}
+
+.gnc-campus-subtitle {
+  font-size: 1rem;
+  color: #ddd;
+  max-width: 80%;
+  margin: 0 auto 20px;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* ========================= */
+/* Dots */
+/* ========================= */
+.gnc-campus-dots {
+  text-align: center;
+  pointer-events: auto;
+}
+
+.gnc-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.gnc-dot.active {
+  opacity: 1;
+}
 </style>
 
 <script>
   AOS.init();
 
-  const slides = document.querySelectorAll(".campus-slide");
-  const dots = document.querySelectorAll(".campus-dot");
-  const slidesContainer = document.querySelector(".campus-slides");
-  const bottomCenter = document.querySelector(".campus-bottom-center");
-  const headingEl = document.querySelector(".luxury-heading");
-  const subtitleEl = document.querySelector(".luxury-subtitle");
+  const slides = document.querySelectorAll(".gnc-campus-slide");
+  const dots = document.querySelectorAll(".gnc-dot");
+  const slidesContainer = document.querySelector(".gnc-campus-slides");
+  const textBox = document.querySelector(".gnc-campus-text");
+  const headingEl = document.querySelector(".gnc-campus-heading");
+  const subtitleEl = document.querySelector(".gnc-campus-subtitle");
 
   const slideContents = [
-    { title: "World-class Computer Centre", subtitle: "Guru Nanak College provides modern computer education with hands-on training <br>and industry-ready skills for successful IT careers." },
-    { title: "Grand Libraries", subtitle: "Guru Nanak College offers a well-equipped library with physical and digital resources supporting academic excellence." },
-    { title: "Medical Facilities", subtitle: "Guru Nanak College provides prompt and reliable healthcare for students through partnerships with top local hospitals." },
-    { title: "Auditorium", subtitle: "Guru Nanak College has a modern 500-seat auditorium with advanced audio-visual facilities, ideal for academic, cultural, and professional events." },
-    { title: "Home-like Hostels", subtitle: "Guru Nanak College offers safe and comfortable on-campus hostels for boys and girls, with single to four-bed occupancy options." },
-    { title: "Transport", subtitle: "Guru Nanak College provides safe and comfortable transport for day scholars with a fleet of well-maintained buses covering multiple city routes." }
+    { title: "World-class Computer Centre", subtitle: "Guru Nanak College provides modern computer education with hands-on training and industry-ready skills for successful IT careers." },
+    { title: "Grand Libraries", subtitle: "A well-equipped library with physical and digital resources supporting academic excellence." },
+    { title: "Medical Facilities", subtitle: "Prompt, reliable healthcare through partnerships with top hospitals." },
+    { title: "Auditorium", subtitle: "A 500-seat auditorium with advanced audio-visual facilities for events and seminars." },
+    { title: "Home-like Hostels", subtitle: "Safe and comfortable hostels with single to four-bed occupancy options." },
+    { title: "Transport", subtitle: "Safe, convenient transport with well-maintained buses connecting the city." }
   ];
 
   let currentSlide = 0;
@@ -539,11 +684,11 @@ document.addEventListener("DOMContentLoaded", function(){
     dots.forEach(dot => dot.classList.remove("active"));
     dots[currentSlide].classList.add("active");
 
-    bottomCenter.classList.remove("show");
+    textBox.classList.remove("show");
     setTimeout(() => {
       headingEl.textContent = slideContents[currentSlide].title;
       subtitleEl.textContent = slideContents[currentSlide].subtitle;
-      bottomCenter.classList.add("show");
+      textBox.classList.add("show");
     }, 200);
   }
 
@@ -556,31 +701,243 @@ document.addEventListener("DOMContentLoaded", function(){
   // Initialize first slide
   showSlide(currentSlide);
 
-  // ---------------- SCROLL ANIMATION ----------------
-  const campusSection = document.querySelector(".gnc-campus-wrapper");
-
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        campusSection.classList.add("visible");
-      } else {
-        campusSection.classList.remove("visible");
-      }
-    });
-  }, { threshold: 0.3 });
-
-  observer.observe(campusSection);
+  // ---------------- Scroll Animation (no observer) ----------------
+  window.addEventListener("scroll", () => {
+    const campusSection = document.querySelector(".gnc-campus-wrapper");
+    const rect = campusSection.getBoundingClientRect();
+    if (rect.top < window.innerHeight * 0.8 && rect.bottom > 100) {
+      campusSection.classList.add("visible");
+    } else {
+      campusSection.classList.remove("visible");
+    }
+  });
 </script>
-<?php require "sample.php"; ?>
+
 <?php require "vertical.php"; ?>
+<?php require "unmatched.php"; ?>
+<?php require "why-choose.php"; ?>
+<?php require "sample.php"; ?>
+<section class="admission-process" id="admissionProcess">
+  <h2 class="section-title">Admission Process</h2>
+  <div class="tree">
+    <!-- Step 1 -->
+    <div class="branch left">
+      <div class="content">
+        <div class="circle">1</div>
+        <h3>Registration Form</h3>
+        <p>Fill out the registration form with your basic details to begin your admission journey.</p>
+      </div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="branch right">
+      <div class="content">
+        <div class="circle">2</div>
+        <h3>Application Form</h3>
+        <p>Provide academic details and upload required documents to complete your application.</p>
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="branch left">
+      <div class="content">
+        <div class="circle">3</div>
+        <h3>Verification & Admission</h3>
+        <p>Your documents are verified, and upon approval, your admission is confirmed!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.admission-process {
+  color: #fff;
+  padding: 100px 20px;
+  position: relative;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 80px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/* Tree Line */
+.tree {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+}
+
+.tree::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background 0.4s ease;
+}
+
+.tree.active::before {
+  background: linear-gradient(180deg, #00c6ff, #0072ff);
+  box-shadow: 0 0 20px rgba(0, 114, 255, 0.7);
+}
+
+/* Branches */
+.branch {
+  position: relative;
+  width: 50%;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.8s ease-out;
+}
+
+.branch.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.branch.left {
+  left: 0;
+  text-align: right;
+}
+
+.branch.right {
+  left: 50%;
+  text-align: left;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 20px 25px;
+  border-radius: 12px;
+  position: relative;
+  width: 80%;
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(0, 114, 255, 0.4);
+}
+
+/* Number Circle */
+.circle {
+  position: absolute;
+  top: 20px;
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  box-shadow: 0 0 15px rgba(0, 114, 255, 0.8);
+}
+
+.branch.left .circle {
+  right: -70px;
+}
+
+.branch.right .circle {
+  left: -70px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tree::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .branch {
+    position: relative;
+    width: 100%;
+    left: 0 !important;
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .branch.left,
+  .branch.right {
+    left: 0 !important;
+    text-align: center;
+  }
+
+  .branch .circle {
+    position: static; /* <-- key fix: removes absolute positioning */
+    margin: 0 auto 20px auto;
+    transform: none;
+  }
+
+  .branch .content {
+    position: static;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .content:hover {
+    transform: scale(1.03);
+  }
+}
+
+</style>
+
+<script>
+const branches = document.querySelectorAll(".branch");
+const tree = document.querySelector(".tree");
+
+function handleScroll() {
+  const triggerBottom = window.innerHeight * 0.8;
+  let anyVisible = false;
+
+  branches.forEach(branch => {
+    const rect = branch.getBoundingClientRect();
+    if (rect.top < triggerBottom && rect.bottom > 100) {
+      branch.classList.add("show");
+      anyVisible = true;
+    } else {
+      branch.classList.remove("show");
+    }
+  });
+
+  // Highlight the vertical line if any step is visible
+  if (anyVisible) {
+    tree.classList.add("active");
+  } else {
+    tree.classList.remove("active");
+  }
+}
+
+window.addEventListener("scroll", handleScroll);
+window.addEventListener("load", handleScroll);
+</script>
+
 <?php require "map.php"; ?>
-  
+<hr>
+<?php require "testimoni-2.php"; ?>
   <!-- Footer -->
   <footer>
     <div class="container text-center">
+    <p>Jhajhra, Chakrata Rd, Dehradun, Uttarakhand 248007 | Call: +91-7300900900</p>
       <p>© 2025 Guru Nanak College. All Rights Reserved.</p>
-      <p>Address: Jhajhra, Chakrata Rd, Dehradun, Uttarakhand, India</p>
-      <p>Email: admission@gnc.edu.in | Call: +91-7300900900</p>
     </div>
   </footer>
 

@@ -175,6 +175,7 @@
   .gnc-verticals-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
   .gnc-vertical-item img { width: 50px; height: 50px; }
   .gnc-vertical-item p { font-size: 12px; }
+  .gnc-slider-left { flex: 1 1 300px; position: relative; overflow: hidden; opacity: 0; transform: translateX(-100px); transition: all 1s ease; }
 }
 
 /* -------------------- TOP COMPANIES -------------------- */

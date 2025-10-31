@@ -64,7 +64,6 @@
     position: relative;
     width: 100%;
     background: #000000;
-    padding: 60px 20px;
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
   }
@@ -82,7 +81,7 @@
     justify-content: center;
     align-items: stretch;
     gap: 30px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
   }
 
@@ -113,7 +112,7 @@
 
   .skills-left li:hover,
   .skills-left li.active {
-    background: #2c5abf;
+    background: #0f9af1;
     color: #fff;
     transform: translateX(5px);
   }
@@ -166,9 +165,9 @@
 
   /* Typed.js text style */
   .js-text-animation {
-    color: #2c5abf;
+    color: #0f9af1;
     font-weight: 700;
-    border-right: 2px solid #2c5abf;
+    border-right: 2px solid #0f9af1;
     white-space: nowrap;
     overflow: hidden;
   }
