@@ -365,7 +365,7 @@
           <div class="card-body">
             <h5 class="card-title">Bachelor of Science in Geology</h5>
              <p class="card-text">The Bachelor of Science in Geology program at Guru Nanak College, Dehradun, is an undergraduate course tailored for students interested in the study of the Earth, its materials, processes, history, and its impact on humans and life in general </p>
-            <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
+            <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
       </div>
