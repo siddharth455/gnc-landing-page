@@ -519,7 +519,7 @@ document.addEventListener("DOMContentLoaded", function(){
     <div class="gnc-campus-slider">
       <div class="gnc-campus-slides">
         <img src="assets/image/computer-lab.webp" class="gnc-campus-slide" />
-        <img src="assets/image/2l.webp" class="gnc-campus-slide" />
+        <img src="assets/image/lib.webp" class="gnc-campus-slide" />
         <img src="assets/image/3l.webp" class="gnc-campus-slide" />
         <img src="assets/image/4l.webp" class="gnc-campus-slide" />
         <img src="assets/image/5l.webp" class="gnc-campus-slide" />

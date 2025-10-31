@@ -11,12 +11,11 @@
     <div class="success-slider swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="upload/sunny.webp" />
+                <img src="assets/image/testi-1.webp" />
                 <div class="success-overlay">
-                    <h1>Walking Tour in Florence</h1>
+                    <h1>Avinash Takhellambam</h1>
                     <p>
-                        Discover the fascinating beauty of this historic city by strolling
-                        through its rich cultural tapestry.
+                    Guru Nanak College gave me the confidence to grow as a skilled and compassionate nurse through hands-on training and great faculty support.
                     </p>
                     <div class="success-ratings">
                         <div class="success-stars">
@@ -26,18 +25,16 @@
                             <ion-icon class="success-star" name="star"></ion-icon>
                             <ion-icon class="success-star" name="star-half-outline"></ion-icon>
                         </div>
-                        <span>138 reviews</span>
                     </div>
                 </div>
             </div>
 
             <div class="swiper-slide">
-                <img src="upload/infra/Testimonials images-02.webp" />
+                <img src="assets/image/testi-2.webp" />
                 <div class="success-overlay">
-                    <h1>Edinburgh Guided Tour</h1>
+                    <h1>Soni Rautan</h1>
                     <p>
-                        Explore majestic castles and fascinating history with our guided
-                        tour through Scotland's capital.
+                    The college focuses on overall development — not just studies, but confidence, skills, and character.
                     </p>
                     <div class="success-ratings">
                         <div class="success-stars">
@@ -47,18 +44,16 @@
                             <ion-icon class="success-star" name="star"></ion-icon>
                             <ion-icon class="success-star" name="star"></ion-icon>
                         </div>
-                        <span>307 reviews</span>
                     </div>
                 </div>
             </div>
 
             <div class="swiper-slide">
-                <img src="upload/infra/Testimonials images-03.webp" />
+                <img src="assets/image/testi-3.webp" />
                 <div class="success-overlay">
-                    <h1>New York Sightseeing Tour</h1>
+                    <h1>Rishikesh Kumar</h1>
                     <p>
-                        Experience the energy and excitement of New York City from Times
-                        Square to Central Park.
+                    The supportive environment and approachable teachers make learning enjoyable and stress-free.
                     </p>
                     <div class="success-ratings">
                         <div class="success-stars">
@@ -68,18 +63,16 @@
                             <ion-icon class="success-star" name="star"></ion-icon>
                             <ion-icon class="success-star" name="star-half-outline"></ion-icon>
                         </div>
-                        <span>1152 reviews</span>
                     </div>
                 </div>
             </div>
 
             <div class="swiper-slide">
-                <img src="upload/infra/Testimonials images-04.webp" />
+                <img src="assets/image/testi-6.webp" />
                 <div class="success-overlay">
-                    <h1>Japan Panoramic Tours</h1>
+                    <h1>Shamsad Aalam</h1>
                     <p>
-                        Embark on a magical journey through Tokyo under blooming cherry
-                        blossoms.
+                    Life at GNC is truly transformative — from academics to personal growth, every experience has shaped me for the better.
                     </p>
                     <div class="success-ratings">
                         <div class="success-stars">
@@ -89,7 +82,6 @@
                             <ion-icon class="success-star" name="star"></ion-icon>
                             <ion-icon class="success-star" name="star-outline"></ion-icon>
                         </div>
-                        <span>619 reviews</span>
                     </div>
                 </div>
             </div>
@@ -192,7 +184,7 @@
         width: 100%;
         height: 150px;
         padding: 12px 20px;
-        background: rgba(93, 95, 145, 0.2);
+        background: rgba(93, 95, 145, 0.7);
         backdrop-filter: blur(20px);
         border-top: 1px solid rgba(255, 255, 255, 0.3);
         color: #fff;
