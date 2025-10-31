@@ -207,29 +207,54 @@
       </div>
 
       <!-- Hidden Paramedical Courses -->
-      <div class="col-md-4 filter-item paramedical hidden-course" style="display: none;">
+      
+      <!-- Updated COurses -->
+     <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">DMLT (Diploma in Lab Tech)</h5>
-            <p class="card-text">2 Years | Fee: ₹55,000 / year</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 filter-item paramedical hidden-course" style="display: none;">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">BRIT (Radiology & Imaging Tech)</h5>
-            <p class="card-text">3 Years | Fee: ₹60,000 / year</p>
+            <h5 class="card-title">Bachelor of Optometry (BSc Optometry)</h5>
+            <p class="card-text">A BSc in Optometry is a 4-year undergraduate program that trains students to become eye care professionals skilled in vision testing, prescribing lenses, and diagnosing or treating eye conditions. It focuses on the prevention, diagnosis, and management of visual disorders.</p>
+            <p class="card-text">3+1 Years | 65,000 /- (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
 
+      <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Operation Theatre Technology (BOTT)</h5>
+            <p class="card-text">The BOTT is a specialized undergraduate program that trains students in operation theatre management, surgical procedures, anesthesia technology, instrumentation, and patient monitoring, preparing them as vital members of surgical teams.</p>
+            <p class="card-text">3+0.5 Years | 65,000 /- (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master in Medical Laboratory Technology (MMLT)</h5>
+            <p class="card-text">The MMLT is a two-year postgraduate program that equips students with advanced skills in laboratory medicine, covering anatomy, physiology, biochemistry, microbiology, pathology, and hematology to understand human health and diseases.</p>
+            <p class="card-text">2 Years | 65,000 /- (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master in Physiotherapy (MPT)</h5>
+            <p class="card-text">The MPT is a postgraduate program specializing in sports, orthopedics, or neurology, offering advanced training in physiotherapy techniques to rehabilitate patients with movement dysfunctions, injuries, or disabilities, enhancing clinical expertise.</p>
+            <p class="card-text">2 Years | 75,000 /- (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
       <!-- Life & Allied Courses -->
       <div class="col-md-4 filter-item life" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">B.Sc Microbiology</h5>
-            <p class="card-text">3 Years | Fee: ₹45,000 / year</p>
+            <p class="card-text">The BSc in Microbiology is a three-year undergraduate program that explores microorganisms, covering immunology, virology, bacteriology, and molecular biology, with practical training in laboratory techniques and microbial research applications.</p>
+            <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
       </div>
@@ -237,7 +262,8 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">B.Sc Biotechnology</h5>
-            <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
+            <p class="card-text">The BSc in Biotechnology is a three-year program that combines biology and technology, covering genetics, molecular biology, bioinformatics, and genetic engineering to develop innovations in medicine, agriculture, and environmental conservation.</p>
+            <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
       </div>
