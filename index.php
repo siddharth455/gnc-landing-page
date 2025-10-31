@@ -268,29 +268,54 @@
       </div>
 
       <!-- Hidden Paramedical Courses -->
-      <div class="col-md-4 filter-item paramedical hidden-course" style="display: none;">
+      
+      <!-- Updated COurses -->
+     <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">DMLT (Diploma in Lab Tech)</h5>
-            <p class="card-text">2 Years | Fee: ₹55,000 / year</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 filter-item paramedical hidden-course" style="display: none;">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">BRIT (Radiology & Imaging Tech)</h5>
-            <p class="card-text">3 Years | Fee: ₹60,000 / year</p>
+            <h5 class="card-title">Bachelor of Optometry (BSc Optometry)</h5>
+            <p class="card-text">A BSc in Optometry is a 4-year undergraduate program that trains students to become eye care professionals skilled in vision testing, prescribing lenses, and diagnosing or treating eye conditions. It focuses on the prevention, diagnosis, and management of visual disorders.</p>
+            <p class="card-text">3+1 Years | 65,000 /- (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
 
+      <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Operation Theatre Technology (BOTT)</h5>
+            <p class="card-text">The BOTT is a specialized undergraduate program that trains students in operation theatre management, surgical procedures, anesthesia technology, instrumentation, and patient monitoring, preparing them as vital members of surgical teams.</p>
+            <p class="card-text">3+0.5 Years | 65,000 /- (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master in Medical Laboratory Technology (MMLT)</h5>
+            <p class="card-text">The MMLT is a two-year postgraduate program that equips students with advanced skills in laboratory medicine, covering anatomy, physiology, biochemistry, microbiology, pathology, and hematology to understand human health and diseases.</p>
+            <p class="card-text">2 Years | 65,000 /- (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master in Physiotherapy (MPT)</h5>
+            <p class="card-text">The MPT is a postgraduate program specializing in sports, orthopedics, or neurology, offering advanced training in physiotherapy techniques to rehabilitate patients with movement dysfunctions, injuries, or disabilities, enhancing clinical expertise.</p>
+            <p class="card-text">2 Years | 75,000 /- (Included Power Degree Fee)</p>
+          </div>
+        </div>
+      </div>
       <!-- Life & Allied Courses -->
       <div class="col-md-4 filter-item life" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">B.Sc Microbiology</h5>
-            <p class="card-text">3 Years | Fee: ₹45,000 / year</p>
+            <p class="card-text">The BSc in Microbiology is a three-year undergraduate program that explores microorganisms, covering immunology, virology, bacteriology, and molecular biology, with practical training in laboratory techniques and microbial research applications.</p>
+            <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
       </div>
@@ -298,15 +323,17 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">B.Sc Biotechnology</h5>
-            <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
+            <p class="card-text">The BSc in Biotechnology is a three-year program that combines biology and technology, covering genetics, molecular biology, bioinformatics, and genetic engineering to develop innovations in medicine, agriculture, and environmental conservation.</p>
+            <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
       </div>
       <div class="col-md-4 filter-item life" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">B.Sc Zoology</h5>
-            <p class="card-text">3 Years | Fee: ₹40,000 / year</p>
+            <h5 class="card-title">Bachelor of Science in Food Technology</h5>
+            <p class="card-text">The BSc in Food Technology is a three-year undergraduate program that trains students in food processing, preservation, packaging, quality control, and nutrition, combining theory, laboratory practice, and industrial training for real-world expertise.</p>
+            <p class="card-text">3 Years | Fee: ₹60,000 / year</p>
           </div>
         </div>
       </div>
@@ -315,26 +342,121 @@
       <div class="col-md-4 filter-item life hidden-course" style="display: none;">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">B.Sc Botany</h5>
-            <p class="card-text">3 Years | Fee: ₹40,000 / year</p>
+            <h5 class="card-title">Bachelor of Science in PCM</h5>
+            <p class="card-text">The BSc in PCM is a three-year program combining Physics, Chemistry, and Mathematics, providing a strong foundation in scientific principles, analytical reasoning, and problem-solving for diverse academic and professional careers.</p>
+          <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
           </div>
         </div>
       </div>
+
+       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Science in CBZ</h5>
+            <p class="card-text">The BSc in CBZ is a three-year program integrating Chemistry, Botany, and Zoology, offering in-depth study of chemical processes, plant biology, and animal science, fostering strong scientific knowledge and research skills.</p>
+            <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Science in Geology</h5>
+            <p class="card-text">The BSc in Geology is a three-year undergraduate program exploring Earth’s materials, processes, and history, covering mineralogy, petrology, paleontology, geophysics, and environmental geology to understand planetary evolution and Earth’s scientific systems.</p>
+            <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Science in Microbiology</h5>
+            <p class="card-text">The MSc in Microbiology is a two-year postgraduate program offering advanced study of microorganisms, covering genetics, immunology, biotechnology, and bioinformatics, with research projects and laboratory training for practical microbiological expertise.</p>
+            <p class="card-text">2 Years | Fee: ₹60,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Science in Food Technology</h5>
+            <p class="card-text">The MSc in Food Technology is a two-year postgraduate program focusing on food processing, preservation, quality control, and nutrition, combining theory, practical training, and research to advance expertise in food science and safety.</p>
+            <p class="card-text">2 Years | Fee: ₹60,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Science in Chemistry</h5>
+            <p class="card-text">The MSc in Food Technology is a two-year postgraduate program focusing on food processing, preservation, quality control, and nutrition, combining theory, practical training, and research to advance expertise in food science and safety.</p>
+            <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Science in Physics</h5>
+            <p class="card-text">The MSc in Physics is a two-year postgraduate program exploring theoretical and applied physics, including quantum mechanics, electromagnetism, and thermodynamics, emphasizing research, experimentation, and advanced scientific understanding of the universe’s fundamental principles.</p>
+            <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Science in Botany</h5>
+            <p class="card-text">The MSc in Botany is a two-year postgraduate program exploring plant structure, function, growth, and ecology, covering biochemistry, pathology, and biotechnology, with emphasis on research, laboratory work, and field studies.</p>
+            <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      
+       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Science in Zoology</h5>
+            <p class="card-text">The MSc in Zoology is a two-year postgraduate program focusing on animal biology, covering physiology, genetics, ecology, and conservation, with strong emphasis on research, laboratory work, and wildlife studies for scientific expertise.</p>
+            <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
+          </div>
+        </div>
+      </div>
+      
 
       <!-- Agriculture Courses -->
       <div class="col-md-4 filter-item agriculture" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">B.Sc Agriculture</h5>
-            <p class="card-text">4 Years | Fee: ₹55,000 / year</p>
+            <h5 class="card-title">Bachelor of Science in Agriculture</h5>
+             <p class="card-text">The BSc in Agriculture is a four-year undergraduate program covering crop production, horticulture, soil science, and agribusiness, combining theory, fieldwork, and research to promote sustainable farming and agricultural innovation.</p>
+            <p class="card-text">4 Years | Fee: ₹69,000 / year</p>
           </div>
         </div>
       </div>
       <div class="col-md-4 filter-item agriculture" data-aos="zoom-in" data-aos-delay="100">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Diploma in Agriculture</h5>
-            <p class="card-text">2 Years | Fee: ₹35,000 / year</p>
+            <h5 class="card-title">Bachelor of Science in Forestry</h5>
+            <p class="card-text">The BSc in Forestry is a four-year undergraduate program focusing on forest conservation, management, and sustainability, covering wildlife, agroforestry, forest policy, and geospatial training through theoretical learning and field-based practical experience.</p>
+            <p class="card-text">4 Years | Fee: ₹69,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-4 filter-item agriculture" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Science in Horticulture</h5>
+            <p class="card-text">The MSc in Horticulture is a two-year postgraduate program focusing on plant cultivation, breeding, and landscape design, integrating research, technology, and sustainable practices to improve crop quality, yield, and horticultural innovation.</p>
+            <p class="card-text">2 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
       </div>
@@ -343,13 +465,139 @@
       <div class="col-md-4 filter-item agriculture hidden-course" style="display: none;">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">M.Sc Agriculture</h5>
+            <h5 class="card-title">Master of Science in Agronomy</h5>
+            <p class="card-text">The MSc in Agronomy is a two-year postgraduate program offering advanced study in crop science, soil fertility, and sustainable agriculture, emphasizing research, innovation, and biotechnology to improve crop productivity and environmental sustainability.</p>
             <p class="card-text">2 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
       </div>
-    </div>
 
+     <!-- Nursing Courses -->
+
+     <div class="col-md-4 filter-item nursing" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Science in Nursing</h5>
+            <p class="card-text">The BSc Nursing is a four-year undergraduate program providing comprehensive training in nursing, patient care, health promotion, and disease prevention, preparing students for professional roles in the healthcare and medical sector.</p>
+            <p class="card-text">4 Years | Fee: ₹2,50,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+
+       <div class="col-md-4 filter-item nursing" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">General Nursing and Midwifery</h5>
+            <p class="card-text">The General Nursing and Midwifery (GNM) is a three-and-a-half-year diploma program offering theoretical knowledge and practical training to prepare students for careers in nursing, midwifery, and essential healthcare services.</p>
+            <p class="card-text">3 Years | Fee: ₹1,25,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 filter-item nursing" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Post Basic B.Sc. Nursing</h5>
+            <p class="card-text">The Post Basic BSc Nursing (PB-BSc) is a two-year undergraduate program that enhances advanced nursing knowledge and clinical skills, preparing professionals to deliver comprehensive patient care and excel in modern healthcare settings.</p>
+            <p class="card-text">2 Years | Fee: ₹1,25,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pharmacy Courses -->
+
+      <div class="col-md-4 filter-item pharmacy" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Pharmacy</h5>
+            <p class="card-text">The BPharm is a four-year undergraduate program offering in-depth knowledge of pharmaceutical science, drug formulation, and pharmacology, combining theory and practical training for careers in healthcare, research, and the pharmaceutical industry.</p>
+            <p class="card-text">4 Years | Fee: ₹85,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+    <div class="col-md-4 filter-item pharmacy" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Lateral Entry in Bachelor of Pharmacy</h5>
+            <p class="card-text">The BPharm Lateral Entry is a three-year program for DPharm graduates, offering advanced study in pharmacology, pharmaceutics, and chemistry, bridging diploma knowledge with professional expertise in the pharmaceutical industry.</p>
+            <p class="card-text">3 Years | Fee: ₹85,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 filter-item pharmacy" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Diploma in Pharmacy </h5>
+            <p class="card-text">The DPharma is a two-year diploma program providing foundational knowledge in pharmacology, pharmaceutics, and pharmaceutical chemistry, preparing students for drug formulation, dispensing, and ethical practice in the pharmaceutical industry.</p>
+            <p class="card-text">2 Years | Fee: ₹65,000 / year</p>
+          </div>
+        </div>
+      </div>
+   
+       <!-- Master Of Public Health -->
+        
+         <div class="col-md-4 filter-item health" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Public Health</h5>
+            <p class="card-text">The Master of Public Health (MPH) is an advanced graduate degree essential for professionals aspiring to impact public health and wellness. A two-year program, the MPH curriculum is designed to provide students with a comprehensive understanding of public health principles and practices.</p>
+            <p class="card-text">2 Years | Fee: ₹65,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 filter-item health" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Master of Hospital Administration</h5>
+            <p class="card-text">The Master of Hospital Administration (MHA) is an advanced postgraduate degree that caters to individuals aiming to excel in the healthcare administration and management sector. This is a two years program which is designed to provide comprehensive training in the management and administration of hospitals and other healthcare facilities.</p>
+            <p class="card-text">2 Years | Fee: ₹65,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Computer Science -->
+
+       <div class="col-md-4 filter-item cs" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Computer Application</h5>
+            <p class="card-text">The BCA is a three-year undergraduate program focusing on computer science, software development, and IT, covering programming, web technologies, database management, and cybersecurity, blending theory and practical skills for tech careers.</p>
+            <p class="card-text">3 Years | Fee: ₹45,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Business School -->
+
+
+       <div class="col-md-4 filter-item business" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Bachelor of Business Administration</h5>
+            <p class="card-text">The BBA is a three-year undergraduate program covering management, finance, marketing, and entrepreneurship, blending business theory with practical skills in leadership, communication, and decision-making for future business professionals and entrepreneurs.</p>
+            <p class="card-text">3 Years | Fee: ₹45,000 / year</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hotel Management -->
+
+        <div class="col-md-4 filter-item hotel" data-aos="zoom-in">
+        <div class="card course-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Diploma in Hotel Management</h5>
+            <p class="card-text">This program is designed for those seeking to dive into the vibrant world of hospitality. In just one year, you will gain a comprehensive understanding of hotel operations, including front office management, housekeeping, and food and beverage service.</p>
+            <p class="card-text">1 Years | Fee: ₹70,000 / year</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+   
     <!-- View More Button -->
     <div class="text-center mt-4">
       <button id="viewMoreBtn" class="btn btn-primary">View More</button>
@@ -519,7 +767,7 @@ document.addEventListener("DOMContentLoaded", function(){
     <div class="gnc-campus-slider">
       <div class="gnc-campus-slides">
         <img src="assets/image/computer-lab.webp" class="gnc-campus-slide" />
-        <img src="assets/image/2l.webp" class="gnc-campus-slide" />
+        <img src="assets/image/lib.webp" class="gnc-campus-slide" />
         <img src="assets/image/3l.webp" class="gnc-campus-slide" />
         <img src="assets/image/4l.webp" class="gnc-campus-slide" />
         <img src="assets/image/5l.webp" class="gnc-campus-slide" />
@@ -714,222 +962,6 @@ document.addEventListener("DOMContentLoaded", function(){
 </script>
 
 <?php require "vertical.php"; ?>
-<?php require "unmatched.php"; ?>
-<?php require "why-choose.php"; ?>
-<?php require "sample.php"; ?>
-<section class="admission-process" id="admissionProcess">
-  <h2 class="section-title">Admission Process</h2>
-  <div class="tree">
-    <!-- Step 1 -->
-    <div class="branch left">
-      <div class="content">
-        <div class="circle">1</div>
-        <h3>Registration Form</h3>
-        <p>Fill out the registration form with your basic details to begin your admission journey.</p>
-      </div>
-    </div>
-
-    <!-- Step 2 -->
-    <div class="branch right">
-      <div class="content">
-        <div class="circle">2</div>
-        <h3>Application Form</h3>
-        <p>Provide academic details and upload required documents to complete your application.</p>
-      </div>
-    </div>
-
-    <!-- Step 3 -->
-    <div class="branch left">
-      <div class="content">
-        <div class="circle">3</div>
-        <h3>Verification & Admission</h3>
-        <p>Your documents are verified, and upon approval, your admission is confirmed!</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<style>
-.admission-process {
-  color: #fff;
-  padding: 100px 20px;
-  position: relative;
-}
-
-.section-title {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 80px;
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-/* Tree Line */
-.tree {
-  position: relative;
-  max-width: 900px;
-  margin: auto;
-}
-
-.tree::before {
-  content: "";
-  position: absolute;
-  width: 3px;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.15);
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  transition: background 0.4s ease;
-}
-
-.tree.active::before {
-  background: linear-gradient(180deg, #00c6ff, #0072ff);
-  box-shadow: 0 0 20px rgba(0, 114, 255, 0.7);
-}
-
-/* Branches */
-.branch {
-  position: relative;
-  width: 50%;
-  padding: 20px 50px;
-  box-sizing: border-box;
-  opacity: 0;
-  transform: translateY(60px);
-  transition: all 0.8s ease-out;
-}
-
-.branch.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.branch.left {
-  left: 0;
-  text-align: right;
-}
-
-.branch.right {
-  left: 50%;
-  text-align: left;
-}
-
-.content {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 20px 25px;
-  border-radius: 12px;
-  position: relative;
-  width: 80%;
-  backdrop-filter: blur(6px);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.content:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0 25px rgba(0, 114, 255, 0.4);
-}
-
-/* Number Circle */
-.circle {
-  position: absolute;
-  top: 20px;
-  width: 45px;
-  height: 45px;
-  background: linear-gradient(135deg, #00c6ff, #0072ff);
-  color: #fff;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 1.1rem;
-  box-shadow: 0 0 15px rgba(0, 114, 255, 0.8);
-}
-
-.branch.left .circle {
-  right: -70px;
-}
-
-.branch.right .circle {
-  left: -70px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .tree::before {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .branch {
-    position: relative;
-    width: 100%;
-    left: 0 !important;
-    padding: 40px 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .branch.left,
-  .branch.right {
-    left: 0 !important;
-    text-align: center;
-  }
-
-  .branch .circle {
-    position: static; /* <-- key fix: removes absolute positioning */
-    margin: 0 auto 20px auto;
-    transform: none;
-  }
-
-  .branch .content {
-    position: static;
-    width: 85%;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .content:hover {
-    transform: scale(1.03);
-  }
-}
-
-</style>
-
-<script>
-const branches = document.querySelectorAll(".branch");
-const tree = document.querySelector(".tree");
-
-function handleScroll() {
-  const triggerBottom = window.innerHeight * 0.8;
-  let anyVisible = false;
-
-  branches.forEach(branch => {
-    const rect = branch.getBoundingClientRect();
-    if (rect.top < triggerBottom && rect.bottom > 100) {
-      branch.classList.add("show");
-      anyVisible = true;
-    } else {
-      branch.classList.remove("show");
-    }
-  });
-
-  // Highlight the vertical line if any step is visible
-  if (anyVisible) {
-    tree.classList.add("active");
-  } else {
-    tree.classList.remove("active");
-  }
-}
-
-window.addEventListener("scroll", handleScroll);
-window.addEventListener("load", handleScroll);
-</script>
-
 <?php require "map.php"; ?>
 <hr>
 <?php require "testimoni-2.php"; ?>
