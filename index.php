@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GNC Admission Portal (Redesign)</title>
-
+  <link rel="icon" type="image/webp" href="assets/image/logo.webp">
+    <title>Top Degrees &amp; Courses at Guru Nanak College, Dehradun</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore diverse B.Sc., B.Tech, MBA, M.Sc. programs in IT, AI, Biotech, and more at GNC. Start your career journey with us.">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
