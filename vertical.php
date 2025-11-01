@@ -2,7 +2,7 @@
 <section id="skills-showcase" class="skills-section">
   <h2>
     Empowering Students Through  <br>
-    <span class="js-text-animation"></span>
+    <span class="skills-showcase-span">Practical Learning Experiences</span>
   </h2>
 
   <div class="skills-container">
@@ -11,7 +11,7 @@
       <ul>
         <li data-img="lib.webp" class="active">Library</li>
         <li data-img="lab.webp">Lab</li>
-        <li data-img="Class.webp">1:1 Mentorship</li>
+        <li data-img="Class.webp">Learning Sessions</li>
         <li data-img="Gnm_lab.webp">Nursing Excellence</li>
         <li data-img="blood.webp">Community Commitment</li>
         <li data-img="Yoga.webp">Yoga & Wellness</li>
@@ -68,10 +68,17 @@
     overflow: hidden;
   }
 
+  .skills-showcase-span{
+    background: linear-gradient(90deg, #0f9af1, #00d4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   .skills-section h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 42px;
     font-weight: 700;
+    line-height: 1.2;
     margin-bottom: 50px;
     color: #fff;
   }
@@ -165,13 +172,13 @@
   }
 
   /* Typed.js text style */
-  .js-text-animation {
+  /* .js-text-animation {
     color: #0f9af1;
     font-weight: 700;
     border-right: 2px solid #0f9af1;
     white-space: nowrap;
     overflow: hidden;
-  }
+  } */
 
   /* ==== Mobile View ==== */
   .skills-mobile {
@@ -225,7 +232,7 @@
 </style>
 
 <!-- Include Typed.js -->
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
 
 <script>
   // Desktop image hover logic
@@ -242,18 +249,18 @@
   });
 
   // Typed.js initialization
-  document.addEventListener("DOMContentLoaded", function () {
-    var typed = new Typed(".js-text-animation", {
-      strings: [
-        "Skill Enhancement & Training",
-        "Career Growth & Opportunities",
-        "Innovation & Research",
-        "Practical Learning Experiences"
-      ],
-      typeSpeed: 60,
-      backSpeed: 25,
-      backDelay: 1500,
-      loop: true
-    });
-  });
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   var typed = new Typed(".js-text-animation", {
+  //     strings: [
+  //       "Skill Enhancement & Training",
+  //       "Career Growth & Opportunities",
+  //       "Innovation & Research",
+  //       "Practical Learning Experiences"
+  //     ],
+  //     typeSpeed: 60,
+  //     backSpeed: 25,
+  //     backDelay: 1500,
+  //     loop: true
+  //   });
+  // });
 </script>

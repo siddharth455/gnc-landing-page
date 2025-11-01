@@ -243,7 +243,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Bachelor of Medical Laboratory Technology (BMLT)</h5>
-            <p class="card-text">The BMLT is a three-year undergraduate program that trains students in laboratory medicine, covering key subjects like anatomy, physiology, biochemistry, microbiology, pathology, and hematology.</p>
+            <p class="card-text">BMLT is a four-year undergraduate course training students to become skilled lab technologists proficient in conducting diagnostic tests, analyzing samples, and supporting accurate disease detection and treatment.</p>
             <p class="card-text">3+1 Years | Fee: ₹65,000 /- (Included Power Degree Fee)</p>
           </div>
         </div>
@@ -252,7 +252,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Bachelor of Medical Radio Diagnosis And Imaging Technology (BMRIT)</h5>
-            <p class="card-text">The BMRIT is a three-year undergraduate program that trains students in diagnostic imaging, covering X-ray, MRI, CT scan, ultrasound, and other radiology techniques.</p>
+            <p class="card-text">BMRIT is a four-year undergraduate course preparing students to operate imaging equipment, perform diagnostic procedures, and assist physicians in identifying and managing internal medical conditions effectively.</p>
             <p class="card-text">3+0.5 Years | Fee: ₹65,000 /- (Included Power Degree Fee)</p>
           </div>
         </div>
@@ -261,7 +261,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Bachelor of Physiotherapy (BPT)</h5>
-            <p class="card-text">The BPT is a four-year undergraduate program that equips students with comprehensive physiotherapy knowledge and practical skills, focusing on rehabilitation, movement therapy, patient care, and restoring physical function effectively.</p>
+            <p class="card-text">BPT is a four-year of academic study and a 6-month internship, training in physical rehabilitation,focusing on training students in physical therapy techniques to help patients recover from injuries, improve mobility, and manage pain through personalized rehabilitation.</p>
             <p class="card-text">4+0.5 Years | Fee: ₹65,000 /- (Included Power Degree Fee)</p>
           </div>
         </div>
@@ -280,9 +280,9 @@
       <div class="col-md-4 filter-item paramedical hidden-course" style="display: none;">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Bachelor of Operation Theatre Technology</h5>
-            <p class="card-text">The Bachelor of Operation Theatre Technology (BOTT) program trains students in surgical assistance, equipment handling, anesthesia techniques, and operation theatre management, preparing them to ensure safety and efficiency in healthcare environments.</p>
-            <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
+            <h5 class="card-title">Bachelor of Operation Theatre Technology (BOTT)</h5>
+            <p class="card-text">Bachelor of Operation Theatre Technology is a four-year undergraduate program designed to train students in surgical assistance, sterilization techniques, and operation theatre management during medical and surgical procedures.</p>
+            <p class="card-text">4 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
       </div>
@@ -291,8 +291,8 @@
        <div class="col-md-4 filter-item paramedical hidden-course" style="display: none;">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Master in Medical Laboratory Technology</h5>
-            <p class="card-text">The Master in Medical Laboratory Technology (MMLT) is a two-year postgraduate course focusing on anatomy, physiology, biochemistry, microbiology, pathology, and hematology to build advanced expertise in laboratory medicine and diagnostics.</p>
+            <h5 class="card-title">Master in Medical Laboratory Technology (MMLT)</h5>
+            <p class="card-text">MMLT is a two-year postgraduate course enhancing students’ expertise in advanced diagnostic techniques, laboratory management, and biomedical research for precise disease detection and efficient healthcare support.</p>
             <p class="card-text">2 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
@@ -302,7 +302,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Master in Physiotherapy (MPT)</h5>
-            <p class="card-text">The Master in Physiotherapy (MPT) is a postgraduate program offering specialized training in sports, orthopedics, or neurology, developing clinical skills to rehabilitate patients with movement disorders, injuries, and physical disabilities.</p>
+            <p class="card-text">MPT is a two-year postgraduate course designed to advance students’ knowledge in physiotherapy, enabling them to specialize in fields like orthopedics, neurology, or sports rehabilitation for patient recovery.</p>
             <p class="card-text">2 Years | Fee: ₹75,000 /- (Included Power Degree Fee)</p>
           </div>
         </div>
@@ -313,7 +313,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">B.Sc Microbiology</h5>
-            <p class="card-text">The Bachelor of Science in Microbiology program at the School of Life & Allied Sciences, Guru Nanak College, Dehradun, is an undergraduate course designed for students interested in the study of microorganisms and their impact on humans, animals, plants, and the environment.</p>
+            <p class="card-text">B.Sc Microbiology is a three-year undergraduate course focusing on microorganisms, training students in lab techniques to study bacteria, viruses, and fungi essential for research, healthcare, and biotechnology industries.</p>
             <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
@@ -322,7 +322,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">B.Sc Biotechnology</h5>
-            <p class="card-text">This three-year program offers a comprehensive study of the application of biological systems and organisms to develop new technologies and products that help improve our lives and the health of our planet.</p>
+            <p class="card-text">B.Sc Biotechnology is a three-year undergraduate course blending biology and technology to train students in genetic engineering, molecular biology, and bioprocessing for applications in medicine, agriculture, and research.</p>
             <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
@@ -331,7 +331,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Bachelor of Science in Food Technology</h5>
-             <p class="card-text">This three-year program focuses on the application of food science and technology in the processing, preservation, packaging, distribution, and use of safe, nutritious, and wholesome food.</p>
+             <p class="card-text">B.Sc Food Technology is a three-year undergraduate course focusing on food production, preservation, and safety, training students to develop nutritious, high-quality food products using scientific and technological methods.</p>
             <p class="card-text">3 Years | Fee: ₹60,000 / year</p>
           </div>
         </div>
@@ -344,7 +344,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Bachelor of Science in PCM</h5>
-             <p class="card-text">For the B.Sc. PCM program, students delve into the dynamic realms of Physics, Chemistry, and Mathematics. Physics courses explore the fundamental principles governing matter, energy, and their interactions, delving into topics such as mechanics, electromagnetism, and quantum mechanics</p>
+             <p class="card-text">B.Sc PCM is a three-year undergraduate course emphasizing Physics, Chemistry, and Mathematics, designed to strengthen students’ analytical, problem-solving, and scientific reasoning skills for diverse technical career paths.</p>
             <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
           </div>
         </div>
@@ -354,7 +354,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Bachelor of Science in CBZ</h5>
-             <p class="card-text">B.Sc. in Chemistry, Botany, Zoology (CBZ) is a meticulously designed three-year course for students with a deep interest in the natural sciences, providing a comprehensive educational experience in these fundamental disciplines. </p>
+             <p class="card-text">B.Sc CBZ is a three-year undergraduate course combining Chemistry, Botany, and Zoology, aimed at developing students’ understanding of life sciences, environmental systems, and the chemical basis of biological functions.</p>
             <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
           </div>
         </div>
@@ -364,7 +364,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Bachelor of Science in Geology</h5>
-             <p class="card-text">The Bachelor of Science in Geology program at Guru Nanak College, Dehradun, is an undergraduate course tailored for students interested in the study of the Earth, its materials, processes, history, and its impact on humans and life in general </p>
+             <p class="card-text">B.Sc Geology is a three-year undergraduate course training students to study earth materials, minerals, and geological processes, preparing them for careers in environmental science, mining, and natural resource exploration.</p>
             <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
           </div>
         </div>
@@ -376,7 +376,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Master of Science in Microbiology</h5>
-             <p class="card-text">Students who wish to deepen their understanding and expertise in the field of microbiology. This two-year program offers an advanced study of microorganisms and their interactions with humans, animals, plants, and the environment.</p>
+             <p class="card-text">M.Sc Microbiology is a two-year postgraduate course focusing on microbial genetics, immunology, and biotechnology, equipping students with advanced research skills for careers in medicine, agriculture, and industry.</p>
             <p class="card-text">2 Years | Fee: ₹60,000 / year</p>
           </div>
         </div>
@@ -386,7 +386,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Master of Science in FoodTechnology</h5>
-             <p class="card-text">Students aiming to specialize in the science of food processing and technology. This two-year program offers advanced knowledge and skills related to the processing, preservation, quality control, and safety of food products</p>
+             <p class="card-text">M.Sc Food Technology is a two-year postgraduate course emphasizing food chemistry, quality control, and product innovation, training students to enhance food safety standards and develop advanced food processing solutions.</p>
             <p class="card-text">2 Years | Fee: ₹60,000 / year</p>
           </div>
         </div>
@@ -396,7 +396,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Master of Science in Chemistry</h5>
-             <p class="card-text">Students who wish to deepen their understanding and expertise in the field of chemistry. This two-year program offers an advanced exploration of various branches of chemistry including organic, inorganic, physical, analytical, and industrial chemistry.</p>
+             <p class="card-text">M.Sc Chemistry is a two-year postgraduate course focusing on chemical analysis, organic synthesis, and spectroscopy, preparing students for research, teaching, and industrial roles in pharmaceuticals, energy, and materials science.</p>
             <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
           </div>
         </div>
@@ -406,7 +406,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Master of Science in Physics</h5>
-             <p class="card-text">Students who are passionate about exploring the fundamental principles of the universe. This two-year program delves into advanced concepts of theoretical and applied physics, covering areas such as quantum mechanics, classical mechanics, electromagnetism, thermodynamics, and nuclear physics.</p>
+             <p class="card-text">M.Sc Physics is a two-year postgraduate course emphasizing theoretical and experimental physics, helping students develop advanced analytical skills applicable in research, space science, electronics, and applied engineering fields.</p>
             <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
           </div>
         </div>
@@ -416,7 +416,7 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Master of Science in Botany</h5>
-             <p class="card-text">Students interested in the comprehensive study of home management, nutrition, human development, textiles, and family resource management. This three-year program offers a blend of theory and practical knowledge aimed at improving the quality of life for individuals, families, and communities.</p>
+             <p class="card-text">M.Sc Botany is a two-year postgraduate course exploring plant biology, physiology, and ecology, training students in advanced botanical research, conservation, and applications in agriculture, forestry, and environmental sciences.</p>
             <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
           </div>
         </div>
@@ -426,150 +426,171 @@
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Master of Science in Zoology</h5>
-             <p class="card-text">Students who are passionate about studying animals and their biological processes. This two-year program offers an in-depth understanding of various aspects of animal science, including animal behavior, physiology, taxonomy, ecology, and conservation.</p>
+             <p class="card-text">M.Sc Zoology is a two-year postgraduate course focusing on animal biology, ecology, and physiology, preparing students for careers in wildlife research, environmental management, and teaching in biological sciences.</p>
             <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
           </div>
         </div>
       </div>
       <!-- Agriculture Courses -->
+      
       <div class="col-md-4 filter-item agriculture" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">B.Sc Agriculture</h5>
-            <p>The Bachelor of Science in Agriculture (B.Sc. Agriculture) is an essential undergraduate program for those interested in the vast and dynamic field of agriculture. This four-year course is designed to provide an in-depth understanding of agricultural sciences and the latest technologies used in the sector.</p>
+            <p class="card-text">B.Sc Agriculture is a four-year undergraduate course focusing on crop science, soil management, and sustainable farming, training students in modern agricultural practices, agribusiness, and rural development techniques.</p>
             <p class="card-text">4 Years | Fee: ₹69,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
+      
       <div class="col-md-4 filter-item agriculture" data-aos="zoom-in" data-aos-delay="100">
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">B.Sc. Forestry</h5>
-            <p>This four-year course offers an extensive exploration of forest ecosystems, wildlife management, and the principles of silviculture. The curriculum includes subjects such as dendrology, forest economics, agroforestry, forest policy and law, and environmental impact assessment.</p>
+            <p class="card-text">B.Sc Forestry is a four-year undergraduate course centered on forest conservation, biodiversity management, and environmental sustainability, preparing students for careers in forestry services, research, and natural resource management.</p>
             <p class="card-text">4 Years | Fee: ₹69,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
+      
       <div class="col-md-4 filter-item agriculture" data-aos="zoom-in" data-aos-delay="100">
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">M.Sc Agriculture</h5>
-            <p>This two-year course provides an advanced understanding of crop science, soil fertility, sustainable agriculture practices, and the management of agricultural resources. The curriculum covers a range of specialized subjects including plant genetics, crop physiology, soil science, pest management, and agricultural biotechnology.</p>
+            <p class="card-text">M.Sc Agriculture is a two-year postgraduate course emphasizing advanced agricultural research, crop improvement, and agronomy, training students in sustainable farming practices, soil science, and agri-based innovation strategies.</p>
             <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
           </div>
         </div>
       </div>
+      
       <!-- Hidden Agriculture Courses -->
+      
       <div class="col-md-4 filter-item agriculture hidden-course" style="display: none;">
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">M.Sc Horticulture</h5>
-            <p>The Master of Science in Horticulture (M.Sc. Horticulture) at Guru Nanak College, Dehradun, is a dynamic postgraduate program designed for individuals passionate about the cultivation of plants, garden and landscape design, and the study of plant species.</p>
+            <p>M.Sc Horticulture is a two-year postgraduate course focusing on plant breeding, floriculture, and fruit and vegetable production, equipping students with skills for research, agri-entrepreneurship, and sustainable horticultural development.</p>
             <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
           </div>
         </div>
       </div>
       <!-- Nursing  -->
+      
       <div class="col-md-4 filter-item nursing" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Bachelor of Science in Nursing</h5>
-            <p class="card-text">The Bachelor of Science in Nursing (BSc Nursing) is a four-year undergraduate degree that prepares students for a career in nursing, a vital component of the healthcare sector. This program offers comprehensive education and training in nursing and healthcare practices, focusing on patient care, health promotion, and disease prevention.</p>
+            <h5 class="card-title">Bachelor of Science in Nursing (B.Sc Nursing)</h5>
+            <p class="card-text">B.Sc Nursing is a four-year undergraduate course preparing students for professional nursing careers through training in patient care, clinical practice, and healthcare management across hospitals and community health settings.</p>
             <p class="card-text">4 Years | Fee: ₹2,50,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
+      
       <div class="col-md-4 filter-item nursing" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">General Nursing and Midwifery</h5>
-          <p class="card-text">General Nursing and Midwifery (GNM) is an essential healthcare course designed for individuals aspiring to enter the nursing and midwifery profession. This diploma program, which usually spans three and a half years, encompasses a comprehensive curriculum that combines theoretical knowledge with extensive practical training.</p>
+            <h5 class="card-title">General Nursing and Midwifery (GNM)</h5>
+          <p class="card-text">GNM is a three-year diploma course designed to train students in general nursing, maternity care, and patient assistance, developing essential clinical and interpersonal skills for healthcare and community service roles.</p>
           <p class="card-text">3 Years | Fee: ₹1,25,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
+      
       <div class="col-md-4 filter-item nursing" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">Post Basic B.Sc. Nursing</h5>
-            <p class="card-text">Post Basic B.Sc. Nursing (PB-B.Sc.) is a two-year undergraduate programme designed to inculcate an in-depth understanding of advanced level nursing. Under this programme, aspirants brush up their learning to provide complete medical care to the patients.</p>
+            <p class="card-text">Post Basic B.Sc Nursing is a two-year undergraduate program aimed at registered nurses, enhancing their clinical expertise, leadership, and critical thinking skills for advanced roles in patient care and hospital management.</p>
             <p class="card-text">2 Years | Fee: ₹1,25,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
+      
       <!-- pharmacy  -->
+      
       <div class="col-md-4 filter-item pharmacy" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Bachelor of Pharmacy</h5>
-            <p class="card-text">The Bachelor of Pharmacy (B.Pharm) is a fundamental undergraduate degree for those interested in the pharmaceutical industry. This course, typically spanning four years, provides comprehensive education in the science and practice of pharmacy. It covers a range of subjects including pharmaceutical chemistry, pharmacology, pharmaceutics, and pharmacognosy.</p>
+            <h5 class="card-title">Bachelor of Pharmacy (B.Pharm)</h5>
+            <p class="card-text">B.Pharm is a four-year undergraduate course focused on pharmaceutical sciences, drug formulation, and clinical pharmacy, training students to work in research, manufacturing, and healthcare sectors ensuring safe medicine use.</p>
             <p class="card-text">4 Years | Fee: ₹85,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
+      
       <div class="col-md-4 filter-item pharmacy" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Lateral Entry in Pharmacy</h5>
-          <p class="card-text">Lateral Entry into the Bachelor of Pharmacy (B.Pharm) program is a pathway designed for students who have already completed a Diploma in Pharmacy (D.Pharm) or a similar qualification.The program's focus is on advanced pharmaceutical sciences, covering critical subjects like pharmacology, pharmaceutical chemistry, and pharmaceutics.</p>
+            <h5 class="card-title">Lateral Entry in Pharmacy (B.Pharm LE)</h5>
+          <p class="card-text">B.Pharm Lateral Entry is a three-year undergraduate course for diploma holders, providing advanced training in pharmacology, medicinal chemistry, and industrial pharmacy to enhance career opportunities in pharmaceutical industries.</p>
           <p class="card-text">3 Years | Fee: ₹85,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
+      
       <div class="col-md-4 filter-item pharmacy" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Diploma in Pharmacy</h5>
-            <p class="card-text">The Diploma in Pharmacy (D.Pharma) is a comprehensive two-year course designed for students interested in entering the pharmaceutical sector. This program provides a foundational understanding of pharmaceutical sciences, covering key areas such as pharmacology, pharmaceutical chemistry, pharmacognosy, and pharmaceutics.</p>
+            <h5 class="card-title">Diploma in Pharmacy (D.Pharm)</h5>
+            <p class="card-text">D.Pharm is a two-year diploma course introducing students to the fundamentals of pharmacy, including drug composition, dispensing, and healthcare ethics, preparing them for roles in retail, hospital, and clinical pharmacies.</p>
             <p class="card-text">2 Years | Fee: ₹65,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
+      
       <!-- health Science  -->
+      
       <div class="col-md-4 filter-item health" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Master of Public Health</h5>
-            <p class="card-text">The Master of Public Health (MPH) is an advanced graduate degree essential for professionals aspiring to impact public health and wellness. A two-year program, the MPH curriculum is designed to provide students with a comprehensive understanding of public health principles and practices.</p>
+            <h5 class="card-title">Master of Public Health (MPH)</h5>
+            <p class="card-text">MPH is a two-year postgraduate course focusing on public health policy, epidemiology, and disease prevention, training students to address global health challenges through research, healthcare planning, and community engagement.</p>
             <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
           </div>
         </div>
       </div>
+      
       <div class="col-md-4 filter-item health" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Master of Hospital Administration</h5>
-            <p class="card-text">The Master of Hospital Administration (MHA) is an advanced postgraduate program designed for individuals aspiring to lead and manage healthcare organizations. It equips students with the essential knowledge of hospital operations, healthcare policies, and strategic management.</p>
+            <h5 class="card-title">Master of Hospital Administration (MHA)</h5>
+            <p class="card-text">MHA is a two-year postgraduate course designed to develop managerial and administrative skills in healthcare operations, preparing students to lead hospitals, clinics, and health organizations with efficiency and professionalism.</p>
             <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
           </div>
         </div>
       </div>
+      
       <!-- computer science  -->
+      
       <div class="col-md-4 filter-item cs" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Bachelor of Computer Application</h5>
-            <p class="card-text">The BCA program covers a wide spectrum of topics including, but not limited to, fundamentals of computer systems, software development, programming languages (like C, C++, Java), web technologies, operating systems, and digital marketing.</p>
+            <h5 class="card-title">Bachelor of Computer Application (BCA)</h5>
+            <p class="card-text">BCA is a three-year undergraduate course emphasizing computer programming, web development, and database management, preparing students for IT careers in software development, system analysis, and emerging digital technologies.</p>
             <p class="card-text">3 Years | Fee: ₹45,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
+      
       <!-- business school  -->
+      
       <div class="col-md-4 filter-item business" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Bachelor of Business Administration</h5>
-            <p class="card-text">The BBA curriculum is structured to provide a solid foundation in business principles, coupled with the development of practical skills essential for success in the business world,Students aspiring to excel in the field of business and management</p>
+            <h5 class="card-title">Bachelor of Business Administration (BBA)</h5>
+            <p class="card-text">BBA is a three-year undergraduate course designed to build managerial, marketing, and entrepreneurial skills, offering students a strong foundation in business operations, leadership, and corporate decision-making strategies.</p>
             <p class="card-text">3 Years | Fee: ₹45,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
       </div>
+      
       <!-- hotel management  -->
+      
       <div class="col-md-4 filter-item hotel" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Diploma in Hotel Management</h5>
-            <p class="card-text">This program is designed for those seeking to dive into the vibrant world of hospitality. In just one year, you will gain a comprehensive understanding of hotel operations, including front office management, housekeeping, and food and beverage service.</p>
+            <h5 class="card-title">Diploma in Hotel Management (DHM)</h5>
+            <p class="card-text">DHM is a  diploma course focusing on hospitality operations, food production, and customer service, training students for careers in hotels, restaurants, tourism, and event management industries worldwide.</p>
             <p class="card-text">1 Year | Fee: ₹70,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
