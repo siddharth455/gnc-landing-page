@@ -28,7 +28,7 @@
           <div class="icon">📍</div>
           <div>
             <h3>Our Address</h3>
-            <p>Chakrata Rd, Jhajra, Dehradun, Uttarakhand 248015</p>
+            <p>Chakrata Rd, Jhajra, Dehradun, Uttarakhand 248007</p>
           </div>
         </div>
 
@@ -36,7 +36,7 @@
           <div class="icon">📞</div>
           <div>
             <h3>Contact Info</h3>
-            <p>+91 98765 43210<br />info@gncdehradun.ac.in</p>
+            <p>+91 7300900900<br />info@gnc.edu.in</p>
           </div>
         </div>
 

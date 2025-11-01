@@ -51,14 +51,14 @@
         <div class="gnc-stat"><h3>900+</h3><p>Placement Offers</p></div>
         <div class="gnc-stat"><h3>100+</h3><p>Companies Visited</p></div>
         <div class="gnc-stat highlight"><h3>54.75 LPA</h3><p>Highest National Package</p></div>
-        <div class="gnc-stat"><h3>12</h3><p>Average Placement Package</p></div>
+        <div class="gnc-stat"><h3>12 LPA</h3><p>Average Placement Package</p></div>
       </div>
 
       <!-- Mini Stats -->
       <div class="gnc-mini-stats">
-        <div><strong>6 LPA</strong><p>Offered by 20+ Companies</p></div>
+        <div><strong>12 LPA</strong><p>Offered by 20+ Companies</p></div>
         <div><strong>8 LPA</strong><p>Offered by 30+ Companies</p></div>
-        <div><strong>12 LPA</strong><p>Offered by 70+ Companies</p></div>
+        <div><strong>6 LPA</strong><p>Offered by 70+ Companies</p></div>
       </div>
     </div>
 

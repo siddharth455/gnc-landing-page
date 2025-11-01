@@ -9,7 +9,7 @@
       <div class="why-item active">
         <button class="why-question">
           <span class="why-number">01</span>
-          <span class="why-text">Excellence in Every Endeavour 🌟</span>
+          <span class="why-text">Excellence in Every Endeavour</span>
           <span class="arrow">→</span>
         </button>
         <div class="why-answer">
@@ -30,7 +30,7 @@
       <div class="why-item">
         <button class="why-question">
           <span class="why-number">02</span>
-          <span class="why-text">Your Career, Our Commitment🎯</span>
+          <span class="why-text">Your Career, Our Commitment</span>
           <span class="arrow">→</span>
         </button>
         <div class="why-answer">
@@ -51,7 +51,7 @@
       <div class="why-item">
         <button class="why-question">
           <span class="why-number">03</span>
-          <span class="why-text">Learning Beyond Classrooms💡</span>
+          <span class="why-text">Learning Beyond Classrooms</span>
           <span class="arrow">→</span>
         </button>
         <div class="why-answer">
@@ -70,7 +70,7 @@
       <div class="why-item">
         <button class="why-question">
           <span class="why-number">04</span>
-          <span class="why-text">Global Outlook, Local Roots🌏</span>
+          <span class="why-text">Global Outlook, Local Roots</span>
           <span class="arrow">→</span>
         </button>
         <div class="why-answer">
@@ -89,7 +89,7 @@
       <div class="why-item">
         <button class="why-question">
           <span class="why-number">05</span>
-          <span class="why-text">Where Potential Meets Opportunity🎓</span>
+          <span class="why-text">Where Potential Meets Opportunity</span>
           <span class="arrow">→</span>
         </button>
         <div class="why-answer">

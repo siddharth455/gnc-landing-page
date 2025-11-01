@@ -198,7 +198,7 @@
   <a href="https://wa.me/917300900900" target="_blank" class="social-icon whatsapp" title="Chat on WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
-  <a href="tel:+917300900900" class="social-icon call" title="Call Now">
+  <a href="tel:+917300777729" class="social-icon call" title="Call Now">
     <i class="fas fa-phone-alt"></i>
   </a>
   <a href="https://www.instagram.com/gncdehradun/" target="_blank" class="social-icon instagram" title="Instagram">
@@ -538,7 +538,7 @@
       <div class="col-md-4 filter-item health" data-aos="zoom-in">
         <div class="card course-card h-100">
           <div class="card-body">
-            <h5 class="card-title">Master of Hospitak Administration</h5>
+            <h5 class="card-title">Master of Hospital Administration</h5>
             <p class="card-text">The Master of Hospital Administration (MHA) is an advanced postgraduate program designed for individuals aspiring to lead and manage healthcare organizations. It equips students with the essential knowledge of hospital operations, healthcare policies, and strategic management.</p>
             <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
           </div>
