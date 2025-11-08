@@ -49,9 +49,9 @@
 <style>
 /* Base Section */
 .experience-section {
-  background: #000;
+  background: #fff;
   padding: 100px 20px;
-  color: #fff;
+  color: black;
   text-align: center;
   overflow: hidden;
 }
@@ -61,7 +61,7 @@
   font-weight: 700;
   margin-bottom: 60px;
   text-transform: uppercase;
-  color: #fff;
+  color: black;
   letter-spacing: 1px;
   position: relative;
 }
@@ -141,7 +141,7 @@
 .exp-content p {
   font-size: 0.95rem;
   line-height: 1.6;
-  color: #ccc;
+  color: black;
 }
 
 @media (max-width: 768px) {

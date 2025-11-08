@@ -48,7 +48,7 @@
 
       <!-- Big Stats -->
       <div class="gnc-stats">
-        <div class="gnc-stat"><h3>900+</h3><p>Placement Offers</p></div>
+        <div class="gnc-stat"><h3 style="color: #fc8435;">900+</h3><p>Placement Offers</p></div>
         <div class="gnc-stat"><h3>100+</h3><p>Companies Visited</p></div>
         <div class="gnc-stat highlight"><h3>54.75 LPA</h3><p>Highest National Package</p></div>
         <div class="gnc-stat"><h3>12 LPA</h3><p>Average Placement Package</p></div>
@@ -56,9 +56,9 @@
 
       <!-- Mini Stats -->
       <div class="gnc-mini-stats">
-        <div><strong>12 LPA</strong><p>Offered by 20+ Companies</p></div>
-        <div><strong>8 LPA</strong><p>Offered by 30+ Companies</p></div>
-        <div><strong>6 LPA</strong><p>Offered by 70+ Companies</p></div>
+        <div><strong>12 LPA</strong><p>Offered by <span style="color: #fc8435;">20+</span> Companies</p></div>
+        <div><strong>8 LPA</strong><p>Offered by <span style="color: #fc8435;">30+</span> Companies</p></div>
+        <div><strong>6 LPA</strong><p>Offered by <span style="color: #fc8435;">70+</span> Companies</p></div>
       </div>
     </div>
 
@@ -151,7 +151,7 @@
 
 /* -------------------- RIGHT CONTENT -------------------- */
 .gnc-overview { font-size: 16px; font-weight: 500; }
-.gnc-title { font-size: 32px; margin: 10px 0 20px; line-height: 1.3; }
+.gnc-title { font-size: 36px; margin: 10px 0 20px; line-height: 1.3; }
 .gnc-buttons a { padding: 15px; margin-right: 10px; border-radius: 5px; text-decoration: none; font-weight: 600; display: inline-block; }
 .gnc-btn-apply { background: #0f9af1; color: #fff; }
 .gnc-btn-view { background: #fff; color: #000; border: 1px solid #000; }

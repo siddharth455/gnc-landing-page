@@ -25,7 +25,7 @@
           ["title" => "Learning goes beyond classrooms", "desc" => "Spending time in the library,and gearing up for real-world challenges.", "img" => "lib.webp"],
           ["title" => "Learning by Doing,Where Knowledge Meets Practice", "desc" => "B.Pharm students mastering concepts through hands-on, practical learning experiences.", "img" => "lab.webp"],
           ["title" => "Building Bright Minds Through Classroom Learning", "desc" => "Students gaining knowledge and skills through focused classroom learning sessions.", "img" => "Class.webp"],
-          ["title" => "Pride in Practice, Excellence in Care", "desc" => "Our GNM students stand tall with confidence and compassion, ready to serve with skill and dedication.", "img" => "Gnm_lab.webp"],
+          ["title" => "Shaping Future Nursing Professionals", "desc" => "Whether BSc Nursing, GNM, or Post Basic Nursing — our students grow with confidence, clinical skills, and a caring attitude, preparing to serve the healthcare field with excellence.", "img" => "Gnm_lab.webp"],
           ["title" => "Building a Culture of Care", "desc" => "Our students actively participate in blood donation drives, embodying compassion, responsibility, and the spirit of service to society.", "img" => "blood.webp"],
           ["title" => "Yoga & Wellness", "desc" => "Empowering students to build mental strength and physical balance through expert-led sessions.", "img" => "Yoga.webp"],
         ];
@@ -63,7 +63,7 @@
   .skills-section {
     position: relative;
     width: 100%;
-    background: #000000;
+    background:rgb(253, 253, 253);
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
   }
@@ -80,7 +80,7 @@
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 50px;
-    color: #fff;
+    color: black;
   }
 
   .skills-container {

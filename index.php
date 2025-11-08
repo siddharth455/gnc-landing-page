@@ -266,7 +266,6 @@
           </div>
         </div>
       </div>
-
       <!-- Hidden Paramedical Courses -->
       <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
@@ -286,8 +285,6 @@
           </div>
         </div>
       </div>
-      
-
        <div class="col-md-4 filter-item paramedical hidden-course" style="display: none;">
         <div class="card course-card h-100">
           <div class="card-body">
@@ -297,7 +294,6 @@
           </div>
         </div>
       </div>
-
       <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
@@ -336,9 +332,6 @@
           </div>
         </div>
       </div>
-
-     
-
       <!-- Hidden Life Courses -->
        <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
@@ -349,7 +342,6 @@
           </div>
         </div>
       </div>
-
        <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
@@ -358,8 +350,7 @@
             <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
           </div>
         </div>
-      </div>
-      
+      </div>  
        <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
@@ -369,9 +360,6 @@
           </div>
         </div>
       </div>
-
-     
-
       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
@@ -381,7 +369,6 @@
           </div>
         </div>
       </div>
-
       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
@@ -391,7 +378,6 @@
           </div>
         </div>
       </div>
-
        <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
@@ -401,7 +387,6 @@
           </div>
         </div>
       </div>
-
       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
@@ -411,7 +396,6 @@
           </div>
         </div>
       </div>
-
         <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
@@ -421,7 +405,6 @@
           </div>
         </div>
       </div>
-
        <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
@@ -441,8 +424,7 @@
             <p class="card-text">4 Years | Fee: ₹69,000 /- year (Included Power Degree Fee)</p>
           </div>
         </div>
-      </div>
-      
+      </div>    
       <div class="col-md-4 filter-item agriculture" data-aos="zoom-in" data-aos-delay="100">
         <div class="card course-card h-100">
           <div class="card-body">
@@ -452,7 +434,6 @@
           </div>
         </div>
       </div>
-      
       <div class="col-md-4 filter-item agriculture" data-aos="zoom-in" data-aos-delay="100">
         <div class="card course-card h-100">
           <div class="card-body">
@@ -461,19 +442,18 @@
             <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
           </div>
         </div>
-      </div>
-      
+      </div>   
       <!-- Hidden Agriculture Courses -->
-      
-      <div class="col-md-4 filter-item agriculture hidden-course" style="display: none;">
+      <div class="col-md-4 filter-item agriculture hidden-course" data-aos="zoom-in" data-aos-delay="200">
         <div class="card course-card h-100">
           <div class="card-body">
             <h5 class="card-title">M.Sc Horticulture</h5>
-            <p>M.Sc Horticulture is a two-year postgraduate course focusing on plant breeding, floriculture, and fruit and vegetable production, equipping students with skills for research, agri-entrepreneurship, and sustainable horticultural development.</p>
+             <p class="card-text">M.Sc Horticulture is a two-year postgraduate course focusing on plant breeding, floriculture, and fruit and vegetable production, equipping students with skills for research, agri-entrepreneurship, and sustainable horticultural development.</p>
             <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
           </div>
         </div>
       </div>
+     
       <!-- Nursing  -->
       
       <div class="col-md-4 filter-item nursing" data-aos="zoom-in">
