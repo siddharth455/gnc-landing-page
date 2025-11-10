@@ -14,9 +14,7 @@
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   <style>
-    /* ==============================
-       BASE STYLES
-    =============================== */
+   
     body {
       /* margin: 0; */
       /* font-family: "Poppins", sans-serif; */
@@ -166,7 +164,7 @@
        KALPANA CHAWLA SECTION
     =============================== */
     .gnc-kalpana-section {
-      background: #fff;
+      background: #0000;
       position: relative;
       z-index: 3;
     }
@@ -190,7 +188,7 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: rgba(0, 0, 0, 0.55);
+      /* background: rgba(0, 0, 0, 0.55); */
     }
 
     .gnc-kalpana-card__content {
@@ -358,10 +356,10 @@
         opacity: 0.8;
     }
 
-.slick-dots li.slick-active button:before {
-  color: #ffcc00 !important;
-  opacity: 1;
-}
+   .slick-dots li.slick-active button:before {
+        color: #ffcc00 !important;
+        opacity: 1;
+    }
 
       .gnc-kalpana-card__title h2 {
         font-size: 20px;
@@ -518,5 +516,5 @@
     $(window).on("resize", function () {
       initSlick();
     });
-  });
+   });
 </script>
