@@ -5,7 +5,7 @@
       --site-width: 1200px;
       --red: #da6b2a;
       --figure-h: 450px;            /* desktop student height (restored) */
-      --figure-protrude: 120px;     /* desktop protrude (restored) */
+      --figure-protrude: 140px;     /* desktop protrude (restored) */
       --figure-right-offset: 28px;
       --figure-extend-below: 140px; /* how much the girl extends below slider */
       --slider-overlap: 100px;
@@ -15,7 +15,7 @@
       display:block;
       margin:0;
       padding:0; /* section itself has no top/bottom padding */
-      background:#fff;
+      background:black;
       overflow:visible;
     }
 
@@ -126,7 +126,6 @@
     #hero-section-embed .slide img{
       width:100%;
       height:100%;
-      margin-top: 125px;
       object-fit:cover;
       display:block;
       background: transparent;
@@ -204,6 +203,7 @@
   #hero-section-embed .slide.active{ opacity:1; visibility:visible; }
   #hero-section-embed .slide img{
     width:100%;
+    margin-top: 125px;
     height:auto;         /* natural image height */
     object-fit:contain;  /* show full image */
     display:block;

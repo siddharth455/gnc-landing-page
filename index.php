@@ -216,10 +216,276 @@
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <?php require "stats.php"; ?>
+<!-- SCHOLARSHIP SECTION ONLY (desktop + mobile background images) -->
+<section class="scholarship-section" aria-labelledby="scholarship-heading">
+  <style>
+    /* Scholarship section styles */
+    .scholarship-section {
+      --site-width: 1200px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    .scholarship-banner {
+      position: relative;
+      /* desktop background */
+      background-image: url('assets/image/scholarship-bg.jpeg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      overflow: hidden;
+      padding: 60px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* mobile background (swap to AVIF) */
+    @media (max-width: 768px) {
+      .scholarship-banner {
+        background-image: url('assets/image/scholarship-bg-mobile.avif');
+        /* adjust position for mobile crop if needed */
+        background-position: center top;
+      }
+    }
+
+    .scholarship-banner::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(9, 20, 30, 0.45) 0%,
+        rgba(9, 20, 30, 0.55) 45%,
+        rgba(9, 20, 30, 0.7) 100%
+      );
+      pointer-events: none;
+    }
+
+    .scholarship-inner {
+      position: relative;
+      max-width: var(--site-width);
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 32px;
+      align-items: start;
+      z-index: 2;
+    }
+
+    /* Left content */
+    .scholarship-copy h2 {
+      margin: 0 0 12px 0;
+      font-size: clamp(22px, 3.6vw, 32px);
+      font-weight: 700;
+    }
+
+    .scholarship-copy p {
+      margin: 0 0 14px 0;
+      line-height: 1.7;
+      color: rgba(255, 255, 255, 0.95);
+      font-size: clamp(14px, 1.6vw, 16px);
+    }
+
+    .scholarship-copy h3 {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    /* Right column: merit scholarship table */
+    .scholarship-side {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 18px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.28);
+    }
+
+    .scholarship-side h3 {
+      margin: 0 0 8px 0;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .scholarship-side p {
+      margin: 0 0 12px 0;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    /* Table styling */
+    .fee-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      color: #fff;
+    }
+
+    .fee-table thead th {
+      text-align: left;
+      padding: 10px 8px;
+      font-weight: 600;
+      opacity: 0.95;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .fee-table tbody td {
+      padding: 10px 8px;
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.08);
+    }
+
+    /* Mobile view */
+    @media (max-width: 900px) {
+      .scholarship-inner {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+
+      .scholarship-banner {
+        padding: 40px 16px;
+      }
+
+      .scholarship-side {
+        margin-top: 16px;
+      }
+
+      .fee-table,
+      .fee-table thead,
+      .fee-table tbody,
+      .fee-table th,
+      .fee-table td,
+      .fee-table tr {
+        display: block;
+        width: 100%;
+      }
+
+      .fee-table thead {
+        display: none;
+      }
+
+      .fee-table tbody tr {
+        margin-bottom: 12px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+        padding: 10px;
+      }
+
+      .fee-table tbody td {
+        display: flex;
+        justify-content: space-between;
+        padding: 6px 8px;
+      }
+
+      .fee-table tbody td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        opacity: 0.95;
+        margin-right: 12px;
+      }
+    }
+
+    @media (max-width: 460px) {
+      .scholarship-banner {
+        padding: 32px 12px;
+      }
+
+      .scholarship-side {
+        padding: 14px;
+      }
+    }
+  </style>
+
+  <!-- Content -->
+  <div class="scholarship-banner" role="region" aria-label="Scholarship highlights">
+    <div class="scholarship-inner">
+      <div class="scholarship-copy" data-aos="fade-up" data-aos-delay="80">
+        <h2 id="scholarship-heading">Kalpana Chawla Scholarships Program</h2>
+        <p>
+        The college offers a range of scholarships designed to support students in achieving their academic goals. These scholarships are awarded based on various criteria, including academic excellence, financial need, and community involvement. The institution’s commitment to student success is reflected in the availability of these scholarships, which aim to make higher education more accessible and affordable. Scholarships are regularly reviewed to ensure they meet the evolving needs of students.
+        </p>
+
+        <h3>Merit Scholarship</h3>
+        <p>
+          Guru Nanak College in Dehradun values academic excellence and offers scholarships to students who perform
+          exceptionally well in their qualifying examinations. These scholarships demonstrate the college's commitment
+          to fostering scholarly aptitude and providing support to deserving students.
+        </p>
+      </div>
+
+      <aside class="scholarship-side" aria-labelledby="merit-title" data-aos="fade-left" data-aos-delay="120">
+        <h3 id="merit-title">Fee Waiver / Slab</h3>
+        <p>Slabs and fee waivers across programs (Diploma / UG / PG)</p>
+
+        <table class="fee-table" role="table" aria-label="Scholarship fee waiver table">
+          <thead>
+            <tr>
+              <th>Slab</th>
+              <th>Admission is taken</th>
+              <th>Percentage</th>
+              <th>Fee Waiver</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Slab">1</td>
+              <td data-label="Admission is taken">Diploma/UG/PG</td>
+              <td data-label="Percentage">65-75%</td>
+              <td data-label="Fee Waiver">15%</td>
+            </tr>
+            <tr>
+              <td data-label="Slab">2</td>
+              <td data-label="Admission is taken">Diploma/UG/PG</td>
+              <td data-label="Percentage">75-90%</td>
+              <td data-label="Fee Waiver">20%</td>
+            </tr>
+            <tr>
+              <td data-label="Slab">3</td>
+              <td data-label="Admission is taken">Diploma/UG/PG</td>
+              <td data-label="Percentage">90-95%</td>
+              <td data-label="Fee Waiver">50%</td>
+            </tr>
+            <tr>
+              <td data-label="Slab">4</td>
+              <td data-label="Admission is taken">Diploma/UG/PG</td>
+              <td data-label="Percentage">95-100%</td>
+              <td data-label="Fee Waiver">Free Education</td>
+            </tr>
+            <tr>
+              <td data-label="Slab">5</td>
+              <td data-label="Admission is taken">Diploma/UG/PG</td>
+              <td data-label="Percentage">Sports Category</td>
+              <td data-label="Fee Waiver">5-10%</td>
+            </tr>
+            <tr>
+              <td data-label="Slab">6</td>
+              <td data-label="Admission is taken">Diploma/UG/PG</td>
+              <td data-label="Percentage">Uttarakhand Domicile</td>
+              <td data-label="Fee Waiver">15%</td>
+            </tr>
+            <tr>
+              <td data-label="Slab">7</td>
+              <td data-label="Admission is taken">Diploma/UG/PG</td>
+              <td data-label="Percentage">Extracurricular</td>
+              <td data-label="Fee Waiver">5-10%</td>
+            </tr>
+            <tr>
+              <td data-label="Slab">8</td>
+              <td data-label="Admission is taken">Diploma/UG/PG</td>
+              <td data-label="Percentage">Social Service (NCC/NSS)</td>
+              <td data-label="Fee Waiver">10%</td>
+            </tr>
+          </tbody>
+        </table>
+      </aside>
+    </div>
+  </div>
+</section>
+
   <!-- Programs / Schools Section -->
- <section id="programs" class="py-5 ">
+ <section id="programs" class="py-3">
   <div class="container">
-    <h2 class="text-center mb-5 fw-bold text-white" data-aos="fade-up">Our Schools & Programs</h2>
+    <h2 class="text-center mb-5 fw-bold text-white" data-aos="fade-up">Find Your Program</h2>
 
     <!-- Filter Buttons -->
      <div class="text-center mb-4" data-aos="fade-up" data-aos-delay="100">
