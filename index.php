@@ -1000,7 +1000,7 @@ document.addEventListener("DOMContentLoaded", function(){
 <style>
 .admission-process {
   color: #fff;
-  padding: 100px 20px;
+  padding: 0px 20px;
   position: relative;
 }
 
