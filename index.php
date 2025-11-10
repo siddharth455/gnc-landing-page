@@ -215,7 +215,7 @@
   </a>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+<?php require "stats.php"; ?>
   <!-- Programs / Schools Section -->
  <section id="programs" class="py-5 ">
   <div class="container">
@@ -639,6 +639,7 @@
 });
 
 </script>
+
 <section id="accreditations">
   <div class="container">
     <div class="row align-items-center">
