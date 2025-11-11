@@ -15,12 +15,6 @@
 
   <style>
    
-    body {
-      /* margin: 0; */
-      /* font-family: "Poppins", sans-serif; */
-      /* background: #fff; */
-      /* overflow-x: hidden; */
-    }
 
     .gnc-scholarship-section {
       background: #da6b2a;
