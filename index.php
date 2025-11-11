@@ -1407,6 +1407,7 @@ document.addEventListener("DOMContentLoaded", function(){
 <?php require "why-choose.php"; ?>
 <?php require "sample.php"; ?>
 <?php require "scholarship.php"; ?>
+
 <section class="admission-process" id="admissionProcess">
   <h2 class="section-title">Admission Process</h2>
   <div class="tree">
@@ -1619,10 +1620,11 @@ function handleScroll() {
 window.addEventListener("scroll", handleScroll);
 window.addEventListener("load", handleScroll);
 </script>
-<?php require "dehradun.php"; ?>
+<?php require "stacked-cards.php"; ?>
 <?php require "map.php"; ?>
 <hr>
 <?php require "testimoni-2.php"; ?>
+
   <!-- Footer -->
   <footer>
     <div class="container text-center">
