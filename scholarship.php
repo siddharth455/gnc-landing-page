@@ -133,8 +133,8 @@
       background: #da6b2a;
       color: #fff;
       text-align: center;
-      padding-top: 80px;
-      padding-bottom: 220px;
+      padding-top: 40px;
+      padding-bottom: 170px;
       position: relative;
       z-index: 2;
     }
@@ -150,14 +150,14 @@
     }
 
     .gnc-scholarship-intro__description {
-      max-width: 950px;
+      max-width: 1200px;
       margin: 0 auto;
       font-size: 16px;
       line-height: 1.8;
       opacity: 0.95;
       position: relative;
       z-index: 2;
-      padding: 0 10px;
+      padding: 0 1px;
     }
 
     /* ==============================
@@ -170,31 +170,47 @@
     }
 
     .gnc-kalpana-card {
-      position: relative;
-      background-size: cover;
-      background-position: center;
-      overflow: hidden;
-      height: 520px;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      color: #fff;
-      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
-      transform: translateY(-160px);
-      border-radius: 12px;
-    }
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #fff;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  transform: translateY(-160px);
+  border-radius: 12px;
+  isolation: isolate; /* ensures overlay doesn't affect children */
+}
 
-    .gnc-kalpana-card::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      /* background: rgba(0, 0, 0, 0.55); */
-    }
+/* Add black opacity overlay */
+.gnc-kalpana-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45); /* Adjust opacity 0.3–0.6 based on image brightness */
+  z-index: 1;
+  transition: background 0.3s ease;
+}
+
+/* Optional: make it slightly darker on hover */
+.gnc-kalpana-card:hover::before {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* Ensure text/content stays on top */
+.gnc-kalpana-card > * {
+  position: relative;
+  z-index: 2;
+}
+
 
     .gnc-kalpana-card__content {
       position: relative;
       z-index: 3;
-      padding: 60px 70px;
+      padding: 20px 30px;
     }
 
     .gnc-kalpana-card__title h2 {
@@ -399,25 +415,25 @@
     <!-- Entrepreneurship Cards -->
     <div class="gnc-scholarship__cards">
       <div class="gnc-scholarship__card">
-        <div class="gnc-scholarship__card-bg" data-bg="assets/image/event-1.webp">
+        <div class="gnc-scholarship__card-bg" data-bg="assets/image/entre-bg-1.webp">
           <div class="gnc-scholarship__card-content">
-            <h3>150+</h3>
+            <h3>15+</h3>
             <p>Start-ups running successfully</p>
           </div>
         </div>
       </div>
       <div class="gnc-scholarship__card">
-        <div class="gnc-scholarship__card-bg" data-bg="assets/image/event-2.webp">
+        <div class="gnc-scholarship__card-bg" data-bg="assets/image/entre-bg-2.webp">
           <div class="gnc-scholarship__card-content">
-            <h3>7</h3>
+            <h3>3</h3>
             <p>Start-ups Recognised by Start-up India</p>
           </div>
         </div>
       </div>
       <div class="gnc-scholarship__card">
-        <div class="gnc-scholarship__card-bg" data-bg="assets/image/event-3.webp">
+        <div class="gnc-scholarship__card-bg" data-bg="assets/image/entre-bg-3.webp">
           <div class="gnc-scholarship__card-content">
-            <h3>50+</h3>
+            <h3>10+</h3>
             <p>Companies with more than 50 Lakh Turnover</p>
           </div>
         </div>
@@ -427,14 +443,10 @@
     <!-- Space Intro Section -->
     <div class="gnc-scholarship-intro">
       <div class="gnc-scholarship-intro__heading">
-        <h2>Space Science <span>&amp; Technology Research Center</span></h2>
+        <h2>Research <span>&amp;  Industrial Funding</span></h2>
       </div>
       <p class="gnc-scholarship-intro__description">
-        Kalpana Chawla Centre for Research in Space Science and Technology is paving the way for advancement in space
-        technology with discovery, research, and education. The Centre is providing satellite design training to
-        students from 21 nations and communicating with 28 countries that are part of the Satellite Networked Open
-        Ground Station (SatNOGS). Hon’ble Defence Minister of India, Shri Rajnath Singh inaugurated the KCCRSST at
-        Chandigarh University.
+      Guru Nanak College is at the forefront of academic innovation and applied research, fostering a culture of inquiry and discovery across diverse disciplines. The institution encourages faculty and students to actively publish high-quality research articles in reputed national and international journals. With a strong emphasis on collaboration, the college partners with industries and government organizations to secure funded research projects, enabling students to gain hands-on exposure to real-world challenges. Through these initiatives, Guru Nanak College continues to bridge the gap between academia and industry, driving meaningful contributions to science, technology, and societal development.
       </p>
     </div>
   </div>
@@ -443,35 +455,24 @@
 <!-- KALPANA CHAWLA RESEARCH SECTION -->
 <section class="gnc-kalpana-section">
   <div class="container">
-    <div class="gnc-kalpana-card" data-bg="assets/image/computer-lab.webp">
+    <div class="gnc-kalpana-card" data-bg="assets/image/7l.webp">
       <div class="gnc-kalpana-card__content">
         <div class="gnc-kalpana-card__title">
-          <h2>Distinctive Feature of the Ground Station</h2>
+          <h2>Distinctive Features of Research &<br> Industrial Collaboration</h2>
         </div>
         <div class="row">
           <div class="col-md-6">
             <ul class="gnc-kalpana-card__features">
-              <li>Can communicate with SatNOGS networked ground stations across the globe</li>
-              <li>Research on 3D Printed Aluminum / Plastic structures that can be used in SPACE explorations</li>
-              <li>Thermal study of materials in vacuum</li>
-              <li>Star gazing centre</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <ul class="gnc-kalpana-card__features">
-              <li>Experimental studies on compact structures of satellite for LEO</li>
-              <li>Experimental materials for antennae and deployment methods</li>
-              <li>Unmanned aerial vehicle design</li>
-              <li>Model rocketry lab</li>
+              <li>Publication of high-impact research articles in national and international journals</li>
+              <li>Active industry-funded research projects across science, technology, and management domains</li>
+              <li>Dedicated Research and Innovation Cell promoting interdisciplinary studies</li>
+              <li>Access to modern laboratories and analytical instruments for hands-on experimentation</li>
+              <li>Regular research workshops, FDPs, and patent awareness programs</li>
             </ul>
           </div>
         </div>
       </div>
-      <img
-        class="gnc-kalpana-card__logo"
-        src="assets/image/logo/27.webp"
-        alt="Kalpana Chawla Center for Research in Space Science & Technology"
-      />
+    
     </div>
   </div>
 </section>

@@ -216,6 +216,201 @@
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <?php require "stats.php"; ?>
+<!-- KALPANA CHAWLA SCHOLARSHIP — BENEFITS GRID -->
+<section class="kc-scholarship-benefits" aria-labelledby="kc-scholarship-title">
+  <style>
+    :root{ --site-width:1200px; --accent:#df6b2a; --muted:#f3f1ee; --text:#0b1b2b; --card-radius:12px; }
+
+    .kc-scholarship-benefits{
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color:var(--text);
+      padding:64px 20px;
+      background:#fff;
+    }
+
+    .kc-inner{
+      max-width:var(--site-width);
+      margin:0 auto;
+    }
+
+    .kc-head {
+      text-align:center;
+      margin-bottom:36px;
+    }
+    .kc-head h2{
+      margin:0;
+      font-size: clamp(28px, 3.6vw, 44px);
+      font-weight:800;
+      letter-spacing:-0.02em;
+    }
+    .kc-head p.lead{
+      margin:12px auto 0;
+      max-width:920px;
+      color: rgba(11,27,43,0.7);
+      font-size: clamp(14px,1.6vw,16px);
+      line-height:1.6;
+    }
+
+    /* grid */
+    .kc-grid{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:28px;
+      margin-top:34px;
+      align-items:stretch;
+    }
+
+    .kc-card{
+      background: var(--muted);
+      border-radius: var(--card-radius);
+      padding:28px;
+      position:relative;
+      overflow:hidden;
+      box-shadow: 0 12px 30px rgba(10,20,30,0.06);
+      min-height:320px;
+      display:flex;
+      flex-direction:column;
+      justify-content:flex-start;
+    }
+
+    /* large faint number */
+    .kc-card::before{
+      content: attr(data-number);
+      position:absolute;
+      right:18px;
+      bottom:14px;
+      font-size:140px;
+      color: rgba(11,27,43,0.06);
+      font-weight:900;
+      line-height:1;
+      pointer-events:none;
+      user-select:none;
+    }
+
+    .kc-icon{
+      width:48px; height:48px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      margin-bottom:18px;
+      color:var(--accent);
+    }
+
+    .kc-title{
+      font-size:20px;
+      font-weight:800;
+      margin:0 0 10px 0;
+    }
+    .kc-desc{
+      margin:0;
+      color: rgba(11,27,43,0.7);
+      line-height:1.6;
+      font-size:14px;
+      margin-bottom:18px;
+    }
+
+    .kc-cta{
+      margin-top:auto;
+      display:flex;
+      gap:10px;
+      align-items:center;
+    }
+    .kc-badge{
+      font-size:13px;
+      padding:8px 12px;
+      border-radius:999px;
+      background: linear-gradient(90deg,var(--accent), #ff9b6b);
+      color:#fff;
+      font-weight:700;
+      box-shadow: 0 8px 18px rgba(222,107,42,0.12);
+    }
+    .kc-learn{
+      margin-left:auto;
+      background:transparent;
+      border:0;
+      color:var(--text);
+      font-weight:700;
+      cursor:pointer;
+    }
+
+    /* responsive */
+    @media (max-width:1000px){
+      .kc-grid{ grid-template-columns: repeat(2, 1fr); }
+      .kc-card::before{ font-size:110px; right:12px; }
+    }
+    @media (max-width:640px){
+      .kc-grid{ grid-template-columns: 1fr; }
+      .kc-card{ min-height:220px; padding:20px; }
+      .kc-card::before{ font-size:80px; right:8px; bottom:8px; opacity:0.06; }
+      .kc-head{ padding:0 8px; }
+    }
+  </style>
+
+  <div class="kc-inner">
+    <header class="kc-head">
+      <h2 id="kc-scholarship-title">Kalpana Chawla Scholarship — Multiple Benefits</h2>
+      <p class="lead">Guru Nanak College’s Kalpana Chawla Scholarship program provides comprehensive support — merit-based awards, financial aid and pathways to career development. Select scholars can receive fee waivers up to 100% to ensure education is accessible to every deserving student.</p>
+    </header>
+
+    <div class="kc-grid" role="list">
+      <!-- Card 1 -->
+      <article class="kc-card" role="listitem" data-number="01" aria-labelledby="card1-title">
+        <div class="kc-icon" aria-hidden="true">
+          <!-- Graduation / book icon -->
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+            <path d="M2 17l10 5 10-5"></path>
+            <path d="M2 12l10 5 10-5"></path>
+          </svg>
+        </div>
+
+        <h3 id="card1-title" class="kc-title">Access to Quality Education</h3>
+        <p class="kc-desc">Kalpana Chawla Scholarship opens doors to world-class teaching and facilities at Guru Nanak College — supporting students to pursue diploma, UG and PG courses with merit-based assistance.</p>
+
+        <div class="kc-cta">
+          <span class="kc-badge">Merit &amp; Need</span>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="kc-card" role="listitem" data-number="02" aria-labelledby="card2-title">
+        <div class="kc-icon" aria-hidden="true">
+          <!-- Career / upward arrow icon -->
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 17v2a1 1 0 0 0 1 1h16"></path>
+            <path d="M7 11l5-5 5 5"></path>
+            <path d="M12 6v12"></path>
+          </svg>
+        </div>
+
+        <h3 id="card2-title" class="kc-title">Competitive Edge in Careers</h3>
+        <p class="kc-desc">Scholarship recipients get mentorship, placement guidance and priority access to internships — helping them stand out in recruitment and career pathways.</p>
+
+        <div class="kc-cta">
+          <span class="kc-badge">Mentorship</span>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="kc-card" role="listitem" data-number="03" aria-labelledby="card3-title">
+        <div class="kc-icon" aria-hidden="true">
+          <!-- Free education / shield or certificate icon -->
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2l3 6 6 1-4.5 4 1 6-5.5-3-5.5 3 1-6L3 9l6-1 3-6z"></path>
+          </svg>
+        </div>
+
+        <h3 id="card3-title" class="kc-title">100% Free Education</h3>
+        <p class="kc-desc">Top-tier performers are eligible for full fee waivers under the Kalpana Chawla Scholarship — enabling truly free education for selected students across eligible programs.</p>
+
+        <div class="kc-cta">
+          <span class="kc-badge">Free</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
 <!-- SCHOLARSHIP SECTION ONLY (desktop + mobile background images) -->
 <section class="scholarship-section" aria-labelledby="scholarship-heading">
   <style>
@@ -1424,7 +1619,7 @@ function handleScroll() {
 window.addEventListener("scroll", handleScroll);
 window.addEventListener("load", handleScroll);
 </script>
-
+<?php require "dehradun.php"; ?>
 <?php require "map.php"; ?>
 <hr>
 <?php require "testimoni-2.php"; ?>
