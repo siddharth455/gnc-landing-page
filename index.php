@@ -1620,7 +1620,7 @@ function handleScroll() {
 window.addEventListener("scroll", handleScroll);
 window.addEventListener("load", handleScroll);
 </script>
-<?php require "stacked-cards.php"; ?>
+
 <?php require "map.php"; ?>
 <hr>
 <?php require "testimoni-2.php"; ?>

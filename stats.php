@@ -236,21 +236,21 @@
         <!-- Stats row -->
         <div class="stats-row" role="list">
           <div class="stat" role="listitem">
-            <div class="num">1700<span>+</span></div>
+            <div class="num">200<span>+</span></div>
             <div class="label">Students availed of<br><small>100 Percent Scholarship</small></div>
           </div>
 
           <div class="divider" aria-hidden="true"></div>
 
           <div class="stat" role="listitem">
-            <div class="num big"><span class="main">1.4</span> <span class="unit">Lakh+</span></div>
+            <div class="num big"><span class="main">1.4</span> <span class="unit">Thousands+</span></div>
             <div class="label">Students availed<br><small>Scholarships</small></div>
           </div>
 
           <div class="divider" aria-hidden="true"></div>
 
           <div class="stat" role="listitem">
-            <div class="num">26000<span>+</span></div>
+            <div class="num">350<span>+</span></div>
             <div class="label">Students availed of<br><small>50 Percent Scholarship</small></div>
           </div>
         </div>
