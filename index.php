@@ -419,8 +419,7 @@
 
   <!-- Programs / Schools Section -->
    <?php require "programs.php"; ?>
- 
-<section id="accreditations">
+ <section id="accreditations">
   <div class="container">
     <div class="row align-items-center">
 
@@ -944,6 +943,7 @@ window.addEventListener("load", handleScroll);
 <hr>
 <?php require "testimoni-2.php"; ?>
 
+<?php require "dehradun.php";?>
   <!-- Footer -->
   <footer>
     <div class="container text-center">

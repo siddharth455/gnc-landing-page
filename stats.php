@@ -230,7 +230,7 @@
         <!-- Student figure sits first in DOM. On desktop it's absolutely positioned and taller to extend below the slider.
              On mobile CSS makes it static left column 250x300. -->
         <div class="student-figure" aria-hidden="true">
-          <img src="assets/image/young-student.webp" alt="student">
+          <img src="assets/image/student-gnc.webp" alt="student">
         </div>
 
         <!-- Stats row -->
