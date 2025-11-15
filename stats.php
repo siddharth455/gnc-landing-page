@@ -204,8 +204,8 @@
   #hero-section-embed .slide img{
     width:100%;
     margin-top: 125px;
-    height:auto;         /* natural image height */
-    object-fit:contain;  /* show full image */
+    height:auto;         
+    object-fit:contain;  
     display:block;
     background:transparent;
   }

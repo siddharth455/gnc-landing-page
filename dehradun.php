@@ -4,7 +4,7 @@
 
   <div class="container text-center position-relative z-1 d-flex flex-column justify-content-center align-items-center h-100">
     <div>
-      <h2 class="fw-bold display-5 mb-3">Dehradun, The City Capital Of Uttarakhand</h2>
+      <h2 class="fw-bold display-5 mb-4">Dehradun, The City Capital Of Uttarakhand</h2>
       <p class="lead mb-5 px-md-5">
         Dehradun, known as the “School Capital of India,” blends natural beauty, quality education, and modern growth in perfect harmony.
       </p>
@@ -103,7 +103,7 @@
     }
 
     .dehradun-section {
-      height: auto; /* fallback for smaller screens */
+      height: auto; 
       padding: 60px 0;
     }
   }
