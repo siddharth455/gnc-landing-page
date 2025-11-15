@@ -24,6 +24,8 @@ $courses_json = json_encode($courses);
         --transparent-red: rgba(216, 0, 0, 0.6);
         /* NEW: Define a more transparent dark background for the other card */
         --transparent-dark: rgba(24, 24, 24, 0.6); 
+        /* Icon color for feature list */
+        --icon-color: #f7ff00; 
     }
 
     /* ------------------------------------------------------------------ */
@@ -59,7 +61,7 @@ $courses_json = json_encode($courses);
         background-position: center;
         background-repeat: no-repeat;
         /* Apply Blur Filter */
-        /* filter: blur(3px);  */
+        /* filter: blur(3px);  */
         z-index: -1; 
     }
 
@@ -74,7 +76,7 @@ $courses_json = json_encode($courses);
         z-index: 2; 
     }
 
-   
+    
 
     .vertical-card {
         
@@ -132,34 +134,61 @@ $courses_json = json_encode($courses);
     
     
     
+    /* ------------------------------------------------------------------ */
+    /* COURSES CARD (NOW FEATURES CARD) STYLES */
+    /* ------------------------------------------------------------------ */
+
     .courses-card {
         
         background-color: var(--transparent-dark);
+        display: flex; /* Ensure flex is set for layout */
+        flex-direction: column;
     }
 
     .courses-card h3 {
-        font-size: 1.3em;
+        font-size: 1.5em; /* Increased size for impact */
         padding-bottom: 10px;
         margin-bottom: 15px;
         border-bottom: 2px solid var(--gold);
-        
+        color: var(--gold); /* Highlight heading color */
+        text-align: center;
     }
 
-    .courses-card h4 {
-        font-size: 1em;
-        border-left: 2px solid var(--gold);
-        padding-left: 8px;
-        
+    /* Target the new features list */
+    .features-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        flex-grow: 1; /* Allows the list to take up available space */
+    }
+    .features-list li {
+        padding: 8px 0;
+        font-size: 0.95em;
+        display: flex;
+        align-items: flex-start;
+        /* Separator line between features */
+        border-bottom: 1px dashed rgba(255, 255, 255, 0.2); 
     }
 
-    .courses-card ul {
-        font-size: 0.85em;
-        margin-bottom: 10px;
-        
+    .features-list li:last-child {
+        border-bottom: none;
     }
-    .courses-card ul li {
-        padding: 3px 0;
-        
+
+    /* Style for the checkmark icon */
+    .features-list li::before {
+        content: '\f00c'; /* Font Awesome check icon */
+        font-family: 'Font Awesome 5 Free'; 
+        font-weight: 900;
+        color: var(--icon-color);
+        margin-right: 10px;
+        font-size: 1.1em;
+        line-height: 1.2;
+    }
+
+    /* Remove old styles no longer needed */
+    .courses-card h4, 
+    .courses-card .program-group ul {
+        display: none; /* Hide old program list styles */
     }
     
     /* ------------------------------------------------------------------ */
@@ -208,35 +237,20 @@ $courses_json = json_encode($courses);
             </div>
 
         <div class="vertical-card courses-card">
-            <h3>Featured Program Disciplines</h3>
+            <h3>Benefits of Joining Guru Nanak College (GNC) Dehradun</h3> 
             
-            <div class="program-group">
-                <h4>Paramedical Sciences</h4>
-                <ul>
-                    <li>Bachelor of Medical Laboratory Technology (BMLT)</li>
-                    <li>Bachelor of Physiotherapy (BPT)</li>
-                    <li>Bachelor of Optometry (BSc Optometry)</li>
-                </ul>
-
-                <h4>Computer Science & IT</h4>
-                <ul>
-                    
-                    <li>BCA (Computer Application)</li>
-                </ul>
-
-                <h4>Business & Management</h4>
-                <ul>
-                    <li>Bachelor of Business Administration (BBA)</li>
-                    
-                </ul>
-                
-                <h4>Nursing</h4>
-                <ul>
-                    <li>Bachelor of Science in Nursing (B.Sc Nursing)</li>
-                    <li>General Nursing and Midwifery (GNM)</li>
-                </ul>
-            </div>
-            
+            <ul class="features-list">
+                <li>Industry-focused programs.</li>
+                <li>Experienced and qualified faculty.</li>
+                <li>Modern labs and infrastructure.</li>
+                <li>Strong placement support.</li>
+                <li>Practical and skill-based learning.</li>
+                <li>Peaceful campus environment.</li>
+                <li>Scholarship opportunities.</li>
+                <li>Focus on overall student development.</li>
+                <li>Strong industry and academic collaborations.</li>
+                <li>Active alumni network for career guidance.</li>
+            </ul>
             </div>
 
     </div>

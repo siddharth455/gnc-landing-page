@@ -62,10 +62,6 @@ $courses = [
         "fees" => "₹75,000/",
         "power_degree" => false
     ],
-
-    // ============================
-    // LIFE & ALLIED SCIENCES
-    // ============================
     [
         "category" => "life", 
         "name" => "Bachelor of Science in Microbiology",

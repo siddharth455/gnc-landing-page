@@ -316,7 +316,7 @@
       }
 
        .gnc-scholarship__cards .gnc-scholarship__card {
-        margin: 0 10px; /* gives 20px total gap between slides */
+        margin: 0 10px; 
        }
 
       .gnc-scholarship-intro {
@@ -410,7 +410,7 @@
     <!-- Entrepreneurship Cards -->
     <div class="gnc-scholarship__cards">
       <div class="gnc-scholarship__card">
-        <div class="gnc-scholarship__card-bg" data-bg="assets/image/entre-bg-1.webp">
+        <div class="gnc-scholarship__card-bg" data-bg="assets/image/entre-bg1.webp">
           <div class="gnc-scholarship__card-content">
             <h3>15+</h3>
             <p>Start-ups running successfully</p>
@@ -418,7 +418,7 @@
         </div>
       </div>
       <div class="gnc-scholarship__card">
-        <div class="gnc-scholarship__card-bg" data-bg="assets/image/entre-bg-2.webp">
+        <div class="gnc-scholarship__card-bg" data-bg="assets/image/entre-bg2.webp">
           <div class="gnc-scholarship__card-content">
             <h3>3</h3>
             <p>Start-ups Recognised by Start-up India</p>
@@ -426,7 +426,7 @@
         </div>
       </div>
       <div class="gnc-scholarship__card">
-        <div class="gnc-scholarship__card-bg" data-bg="assets/image/entre-bg-3.webp">
+        <div class="gnc-scholarship__card-bg" data-bg="assets/image/entre-bg3.webp">
           <div class="gnc-scholarship__card-content">
             <h3>10+</h3>
             <p>Companies with more than 50 Lakh Turnover</p>
