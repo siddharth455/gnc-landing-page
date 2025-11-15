@@ -187,6 +187,7 @@
   background: rgba(0, 0, 0, 0.45); /* Adjust opacity 0.3–0.6 based on image brightness */
   z-index: 1;
   transition: background 0.3s ease;
+  
 }
 
 /* Optional: make it slightly darker on hover */

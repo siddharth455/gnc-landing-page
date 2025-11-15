@@ -9,6 +9,9 @@
     <meta name="description" content="Explore diverse B.Sc., B.Tech, MBA, M.Sc. programs in IT, AI, Biotech, and more at GNC. Start your career journey with us.">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- ✅ Bootstrap Icons CDN -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 
   <!-- AOS CSS -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
@@ -22,6 +25,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script
 
 </head>
 <body>
@@ -412,695 +416,10 @@
 </section>
 
 <!-- SCHOLARSHIP SECTION ONLY (desktop + mobile background images) -->
-<section class="scholarship-section" aria-labelledby="scholarship-heading">
-  <style>
-    /* Scholarship section styles */
-    .scholarship-section {
-      --site-width: 1200px;
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    }
-
-    .scholarship-banner {
-      position: relative;
-      /* desktop background */
-      background-image: url('assets/image/scholarship-bg.jpeg');
-      background-size: cover;
-      background-position: center;
-      color: #fff;
-      overflow: hidden;
-      padding: 60px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    /* mobile background (swap to AVIF) */
-    @media (max-width: 768px) {
-      .scholarship-banner {
-        background-image: url('assets/image/scholarship-bg-mobile.avif');
-        /* adjust position for mobile crop if needed */
-        background-position: center top;
-      }
-    }
-
-    .scholarship-banner::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        180deg,
-        rgba(9, 20, 30, 0.45) 0%,
-        rgba(9, 20, 30, 0.55) 45%,
-        rgba(9, 20, 30, 0.7) 100%
-      );
-      pointer-events: none;
-    }
-
-    .scholarship-inner {
-      position: relative;
-      max-width: var(--site-width);
-      width: 100%;
-      display: grid;
-      grid-template-columns: 1fr 420px;
-      gap: 32px;
-      align-items: start;
-      z-index: 2;
-    }
-
-    /* Left content */
-    .scholarship-copy h2 {
-      margin: 0 0 12px 0;
-      font-size: clamp(22px, 3.6vw, 32px);
-      font-weight: 700;
-    }
-
-    .scholarship-copy p {
-      margin: 0 0 14px 0;
-      line-height: 1.7;
-      color: rgba(255, 255, 255, 0.95);
-      font-size: clamp(14px, 1.6vw, 16px);
-    }
-
-    .scholarship-copy h3 {
-      margin-top: 20px;
-      font-size: 20px;
-      font-weight: 600;
-      color: #fff;
-    }
-
-    /* Right column: merit scholarship table */
-    .scholarship-side {
-      background: rgba(255, 255, 255, 0.08);
-      border-radius: 12px;
-      padding: 18px;
-      backdrop-filter: blur(6px);
-      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.28);
-    }
-
-    .scholarship-side h3 {
-      margin: 0 0 8px 0;
-      font-size: 18px;
-      font-weight: 600;
-    }
-
-    .scholarship-side p {
-      margin: 0 0 12px 0;
-      font-size: 14px;
-      color: rgba(255, 255, 255, 0.9);
-    }
-
-    /* Table styling */
-    .fee-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 14px;
-      color: #fff;
-    }
-
-    .fee-table thead th {
-      text-align: left;
-      padding: 10px 8px;
-      font-weight: 600;
-      opacity: 0.95;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .fee-table tbody td {
-      padding: 10px 8px;
-      border-bottom: 1px dashed rgba(255, 255, 255, 0.08);
-    }
-
-    /* Mobile view */
-    @media (max-width: 900px) {
-      .scholarship-inner {
-        grid-template-columns: 1fr;
-        gap: 20px;
-      }
-
-      .scholarship-banner {
-        padding: 40px 16px;
-      }
-
-      .scholarship-side {
-        margin-top: 16px;
-      }
-
-      .fee-table,
-      .fee-table thead,
-      .fee-table tbody,
-      .fee-table th,
-      .fee-table td,
-      .fee-table tr {
-        display: block;
-        width: 100%;
-      }
-
-      .fee-table thead {
-        display: none;
-      }
-
-      .fee-table tbody tr {
-        margin-bottom: 12px;
-        background: rgba(255, 255, 255, 0.05);
-        border-radius: 8px;
-        padding: 10px;
-      }
-
-      .fee-table tbody td {
-        display: flex;
-        justify-content: space-between;
-        padding: 6px 8px;
-      }
-
-      .fee-table tbody td::before {
-        content: attr(data-label);
-        font-weight: 600;
-        opacity: 0.95;
-        margin-right: 12px;
-      }
-    }
-
-    @media (max-width: 460px) {
-      .scholarship-banner {
-        padding: 32px 12px;
-      }
-
-      .scholarship-side {
-        padding: 14px;
-      }
-    }
-  </style>
-
-  <!-- Content -->
-  <div class="scholarship-banner" role="region" aria-label="Scholarship highlights">
-    <div class="scholarship-inner">
-      <div class="scholarship-copy" data-aos="fade-up" data-aos-delay="80">
-        <h2 id="scholarship-heading">Kalpana Chawla Scholarships Program</h2>
-        <p>
-        The college offers a range of scholarships designed to support students in achieving their academic goals. These scholarships are awarded based on various criteria, including academic excellence, financial need, and community involvement. The institution’s commitment to student success is reflected in the availability of these scholarships, which aim to make higher education more accessible and affordable. Scholarships are regularly reviewed to ensure they meet the evolving needs of students.
-        </p>
-
-        <h3>Merit Scholarship</h3>
-        <p>
-          Guru Nanak College in Dehradun values academic excellence and offers scholarships to students who perform
-          exceptionally well in their qualifying examinations. These scholarships demonstrate the college's commitment
-          to fostering scholarly aptitude and providing support to deserving students.
-        </p>
-      </div>
-
-      <aside class="scholarship-side" aria-labelledby="merit-title" data-aos="fade-left" data-aos-delay="120">
-        <h3 id="merit-title">Fee Waiver / Slab</h3>
-        <p>Slabs and fee waivers across programs (Diploma / UG / PG)</p>
-
-        <table class="fee-table" role="table" aria-label="Scholarship fee waiver table">
-          <thead>
-            <tr>
-              <th>Slab</th>
-              <th>Admission is taken</th>
-              <th>Percentage</th>
-              <th>Fee Waiver</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td data-label="Slab">1</td>
-              <td data-label="Admission is taken">Diploma/UG/PG</td>
-              <td data-label="Percentage">65-75%</td>
-              <td data-label="Fee Waiver">15%</td>
-            </tr>
-            <tr>
-              <td data-label="Slab">2</td>
-              <td data-label="Admission is taken">Diploma/UG/PG</td>
-              <td data-label="Percentage">75-90%</td>
-              <td data-label="Fee Waiver">20%</td>
-            </tr>
-            <tr>
-              <td data-label="Slab">3</td>
-              <td data-label="Admission is taken">Diploma/UG/PG</td>
-              <td data-label="Percentage">90-95%</td>
-              <td data-label="Fee Waiver">50%</td>
-            </tr>
-            <tr>
-              <td data-label="Slab">4</td>
-              <td data-label="Admission is taken">Diploma/UG/PG</td>
-              <td data-label="Percentage">95-100%</td>
-              <td data-label="Fee Waiver">Free Education</td>
-            </tr>
-            <tr>
-              <td data-label="Slab">5</td>
-              <td data-label="Admission is taken">Diploma/UG/PG</td>
-              <td data-label="Percentage">Sports Category</td>
-              <td data-label="Fee Waiver">5-10%</td>
-            </tr>
-            <tr>
-              <td data-label="Slab">6</td>
-              <td data-label="Admission is taken">Diploma/UG/PG</td>
-              <td data-label="Percentage">Uttarakhand Domicile</td>
-              <td data-label="Fee Waiver">15%</td>
-            </tr>
-            <tr>
-              <td data-label="Slab">7</td>
-              <td data-label="Admission is taken">Diploma/UG/PG</td>
-              <td data-label="Percentage">Extracurricular</td>
-              <td data-label="Fee Waiver">5-10%</td>
-            </tr>
-            <tr>
-              <td data-label="Slab">8</td>
-              <td data-label="Admission is taken">Diploma/UG/PG</td>
-              <td data-label="Percentage">Social Service (NCC/NSS)</td>
-              <td data-label="Fee Waiver">10%</td>
-            </tr>
-          </tbody>
-        </table>
-      </aside>
-    </div>
-  </div>
-</section>
 
   <!-- Programs / Schools Section -->
- <section id="programs" class="py-3">
-  <div class="container">
-    <h2 class="text-center mb-5 fw-bold text-white" data-aos="fade-up">Find Your Program</h2>
-
-    <!-- Filter Buttons -->
-     <div class="text-center mb-4" data-aos="fade-up" data-aos-delay="100">
-      <div class="btn-group flex-wrap">
-        <button class="btn btn-outline-primary filter-btn active" data-filter="paramedical">Paramedical Sciences</button>
-        <button class="btn btn-outline-primary filter-btn" data-filter="life">Life & Allied Sciences</button>
-        <button class="btn btn-outline-primary filter-btn" data-filter="agriculture">Agriculture Sciences</button>
-        <button class="btn btn-outline-primary filter-btn" data-filter="nursing">Nursing</button>
-        <button class="btn btn-outline-primary filter-btn" data-filter="pharmacy">Pharmacy</button>
-        <button class="btn btn-outline-primary filter-btn" data-filter="health">Health Science</button>
-        <button class="btn btn-outline-primary filter-btn" data-filter="cs">Computer Science</button>
-        <button class="btn btn-outline-primary filter-btn" data-filter="business">Business School</button>
-        <button class="btn btn-outline-primary filter-btn" data-filter="hotel">Hotel Management</button>
-      </div>
-    </div>
-
-    <!-- Courses Container -->
-    <div class="row g-4 course-container">
-      <!-- Paramedical Courses -->
-      <div class="col-md-4 filter-item paramedical" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Medical Laboratory Technology (BMLT)</h5>
-            <p class="card-text">BMLT is a four-year undergraduate course training students to become skilled lab technologists proficient in conducting diagnostic tests, analyzing samples, and supporting accurate disease detection and treatment.</p>
-            <p class="card-text">3+1 Years | Fee: ₹65,000 /- (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 filter-item paramedical" data-aos="zoom-in" data-aos-delay="100">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Medical Radio Diagnosis And Imaging Technology (BMRIT)</h5>
-            <p class="card-text">BMRIT is a four-year undergraduate course preparing students to operate imaging equipment, perform diagnostic procedures, and assist physicians in identifying and managing internal medical conditions effectively.</p>
-            <p class="card-text">3+0.5 Years | Fee: ₹65,000 /- (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 filter-item paramedical" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Physiotherapy (BPT)</h5>
-            <p class="card-text">BPT is a four-year of academic study and a 6-month internship, training in physical rehabilitation,focusing on training students in physical therapy techniques to help patients recover from injuries, improve mobility, and manage pain through personalized rehabilitation.</p>
-            <p class="card-text">4+0.5 Years | Fee: ₹65,000 /- (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-      <!-- Hidden Paramedical Courses -->
-      <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Optometry (BSc Optometry)</h5>
-            <p class="card-text">BSc Optometry is a four-year undergraduate course training students to become eye care professionals skilled in vision testing, prescribing lenses, and diagnosing or treating various eye conditions and disorders.</p>
-            <p class="card-text">3+1 Years | Fee: ₹65,000 /- (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 filter-item paramedical hidden-course" style="display: none;">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Operation Theatre Technology (BOTT)</h5>
-            <p class="card-text">Bachelor of Operation Theatre Technology is a four-year undergraduate program designed to train students in surgical assistance, sterilization techniques, and operation theatre management during medical and surgical procedures.</p>
-            <p class="card-text">4 Years | Fee: ₹65,000 / year</p>
-          </div>
-        </div>
-      </div>
-       <div class="col-md-4 filter-item paramedical hidden-course" style="display: none;">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Master in Medical Laboratory Technology (MMLT)</h5>
-            <p class="card-text">MMLT is a two-year postgraduate course enhancing students’ expertise in advanced diagnostic techniques, laboratory management, and biomedical research for precise disease detection and efficient healthcare support.</p>
-            <p class="card-text">2 Years | Fee: ₹65,000 / year</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 filter-item paramedical hidden-course" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Master in Physiotherapy (MPT)</h5>
-            <p class="card-text">MPT is a two-year postgraduate course designed to advance students’ knowledge in physiotherapy, enabling them to specialize in fields like orthopedics, neurology, or sports rehabilitation for patient recovery.</p>
-            <p class="card-text">2 Years | Fee: ₹75,000 /- (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Life & Allied Courses -->
-      <div class="col-md-4 filter-item life" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">B.Sc Microbiology</h5>
-            <p class="card-text">B.Sc Microbiology is a three-year undergraduate course focusing on microorganisms, training students in lab techniques to study bacteria, viruses, and fungi essential for research, healthcare, and biotechnology industries.</p>
-            <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 filter-item life" data-aos="zoom-in" data-aos-delay="100">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">B.Sc Biotechnology</h5>
-            <p class="card-text">B.Sc Biotechnology is a three-year undergraduate course blending biology and technology to train students in genetic engineering, molecular biology, and bioprocessing for applications in medicine, agriculture, and research.</p>
-            <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 filter-item life" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Science in Food Technology</h5>
-             <p class="card-text">B.Sc Food Technology is a three-year undergraduate course focusing on food production, preservation, and safety, training students to develop nutritious, high-quality food products using scientific and technological methods.</p>
-            <p class="card-text">3 Years | Fee: ₹60,000 / year</p>
-          </div>
-        </div>
-      </div>
-      <!-- Hidden Life Courses -->
-       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Science in PCM</h5>
-             <p class="card-text">B.Sc PCM is a three-year undergraduate course emphasizing Physics, Chemistry, and Mathematics, designed to strengthen students’ analytical, problem-solving, and scientific reasoning skills for diverse technical career paths.</p>
-            <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
-          </div>
-        </div>
-      </div>
-       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Science in CBZ</h5>
-             <p class="card-text">B.Sc CBZ is a three-year undergraduate course combining Chemistry, Botany, and Zoology, aimed at developing students’ understanding of life sciences, environmental systems, and the chemical basis of biological functions.</p>
-            <p class="card-text">3 Years | Fee: ₹50,000 / year</p>
-          </div>
-        </div>
-      </div>  
-       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Science in Geology</h5>
-             <p class="card-text">B.Sc Geology is a three-year undergraduate course training students to study earth materials, minerals, and geological processes, preparing them for careers in environmental science, mining, and natural resource exploration.</p>
-            <p class="card-text">3 Years | Fee: ₹65,000 / year</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Master of Science in Microbiology</h5>
-             <p class="card-text">M.Sc Microbiology is a two-year postgraduate course focusing on microbial genetics, immunology, and biotechnology, equipping students with advanced research skills for careers in medicine, agriculture, and industry.</p>
-            <p class="card-text">2 Years | Fee: ₹60,000 / year</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Master of Science in FoodTechnology</h5>
-             <p class="card-text">M.Sc Food Technology is a two-year postgraduate course emphasizing food chemistry, quality control, and product innovation, training students to enhance food safety standards and develop advanced food processing solutions.</p>
-            <p class="card-text">2 Years | Fee: ₹60,000 / year</p>
-          </div>
-        </div>
-      </div>
-       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Master of Science in Chemistry</h5>
-             <p class="card-text">M.Sc Chemistry is a two-year postgraduate course focusing on chemical analysis, organic synthesis, and spectroscopy, preparing students for research, teaching, and industrial roles in pharmaceuticals, energy, and materials science.</p>
-            <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Master of Science in Physics</h5>
-             <p class="card-text">M.Sc Physics is a two-year postgraduate course emphasizing theoretical and experimental physics, helping students develop advanced analytical skills applicable in research, space science, electronics, and applied engineering fields.</p>
-            <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
-          </div>
-        </div>
-      </div>
-        <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Master of Science in Botany</h5>
-             <p class="card-text">M.Sc Botany is a two-year postgraduate course exploring plant biology, physiology, and ecology, training students in advanced botanical research, conservation, and applications in agriculture, forestry, and environmental sciences.</p>
-            <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
-          </div>
-        </div>
-      </div>
-       <div class="col-md-4 filter-item life hidden-course" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Master of Science in Zoology</h5>
-             <p class="card-text">M.Sc Zoology is a two-year postgraduate course focusing on animal biology, ecology, and physiology, preparing students for careers in wildlife research, environmental management, and teaching in biological sciences.</p>
-            <p class="card-text">2 Years | Fee: ₹40,000 / year</p>
-          </div>
-        </div>
-      </div>
-      <!-- Agriculture Courses -->
-      
-      <div class="col-md-4 filter-item agriculture" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">B.Sc Agriculture</h5>
-            <p class="card-text">B.Sc Agriculture is a four-year undergraduate course focusing on crop science, soil management, and sustainable farming, training students in modern agricultural practices, agribusiness, and rural development techniques.</p>
-            <p class="card-text">4 Years | Fee: ₹69,000 /- year (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>    
-      <div class="col-md-4 filter-item agriculture" data-aos="zoom-in" data-aos-delay="100">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">B.Sc. Forestry</h5>
-            <p class="card-text">B.Sc Forestry is a four-year undergraduate course centered on forest conservation, biodiversity management, and environmental sustainability, preparing students for careers in forestry services, research, and natural resource management.</p>
-            <p class="card-text">4 Years | Fee: ₹69,000 /- year (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 filter-item agriculture" data-aos="zoom-in" data-aos-delay="100">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">M.Sc Agriculture</h5>
-            <p class="card-text">M.Sc Agriculture is a two-year postgraduate course emphasizing advanced agricultural research, crop improvement, and agronomy, training students in sustainable farming practices, soil science, and agri-based innovation strategies.</p>
-            <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
-          </div>
-        </div>
-      </div>   
-      <!-- Hidden Agriculture Courses -->
-      <div class="col-md-4 filter-item agriculture hidden-course" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">M.Sc Horticulture</h5>
-             <p class="card-text">M.Sc Horticulture is a two-year postgraduate course focusing on plant breeding, floriculture, and fruit and vegetable production, equipping students with skills for research, agri-entrepreneurship, and sustainable horticultural development.</p>
-            <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
-          </div>
-        </div>
-      </div>
-     
-      <!-- Nursing  -->
-      
-      <div class="col-md-4 filter-item nursing" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Science in Nursing (B.Sc Nursing)</h5>
-            <p class="card-text">B.Sc Nursing is a four-year undergraduate course preparing students for professional nursing careers through training in patient care, clinical practice, and healthcare management across hospitals and community health settings.</p>
-            <p class="card-text">4 Years | Fee: ₹2,50,000 /- year (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-4 filter-item nursing" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">General Nursing and Midwifery (GNM)</h5>
-          <p class="card-text">GNM is a three-year diploma course designed to train students in general nursing, maternity care, and patient assistance, developing essential clinical and interpersonal skills for healthcare and community service roles.</p>
-          <p class="card-text">3 Years | Fee: ₹1,25,000 /- year (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-4 filter-item nursing" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Post Basic B.Sc. Nursing</h5>
-            <p class="card-text">Post Basic B.Sc Nursing is a two-year undergraduate program aimed at registered nurses, enhancing their clinical expertise, leadership, and critical thinking skills for advanced roles in patient care and hospital management.</p>
-            <p class="card-text">2 Years | Fee: ₹1,25,000 /- year (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- pharmacy  -->
-      
-      <div class="col-md-4 filter-item pharmacy" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Pharmacy (B.Pharm)</h5>
-            <p class="card-text">B.Pharm is a four-year undergraduate course focused on pharmaceutical sciences, drug formulation, and clinical pharmacy, training students to work in research, manufacturing, and healthcare sectors ensuring safe medicine use.</p>
-            <p class="card-text">4 Years | Fee: ₹85,000 /- year (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-4 filter-item pharmacy" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Lateral Entry in Pharmacy (B.Pharm LE)</h5>
-          <p class="card-text">B.Pharm Lateral Entry is a three-year undergraduate course for diploma holders, providing advanced training in pharmacology, medicinal chemistry, and industrial pharmacy to enhance career opportunities in pharmaceutical industries.</p>
-          <p class="card-text">3 Years | Fee: ₹85,000 /- year (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-4 filter-item pharmacy" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Diploma in Pharmacy (D.Pharm)</h5>
-            <p class="card-text">D.Pharm is a two-year diploma course introducing students to the fundamentals of pharmacy, including drug composition, dispensing, and healthcare ethics, preparing them for roles in retail, hospital, and clinical pharmacies.</p>
-            <p class="card-text">2 Years | Fee: ₹65,000 /- year (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- health Science  -->
-      
-      <div class="col-md-4 filter-item health" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Master of Public Health (MPH)</h5>
-            <p class="card-text">MPH is a two-year postgraduate course focusing on public health policy, epidemiology, and disease prevention, training students to address global health challenges through research, healthcare planning, and community engagement.</p>
-            <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-md-4 filter-item health" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Master of Hospital Administration (MHA)</h5>
-            <p class="card-text">MHA is a two-year postgraduate course designed to develop managerial and administrative skills in healthcare operations, preparing students to lead hospitals, clinics, and health organizations with efficiency and professionalism.</p>
-            <p class="card-text">2 Years | Fee: ₹65,000 /- year</p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- computer science  -->
-      
-      <div class="col-md-4 filter-item cs" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Computer Application (BCA)</h5>
-            <p class="card-text">BCA is a three-year undergraduate course emphasizing computer programming, web development, and database management, preparing students for IT careers in software development, system analysis, and emerging digital technologies.</p>
-            <p class="card-text">3 Years | Fee: ₹45,000 /- year (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- business school  -->
-      
-      <div class="col-md-4 filter-item business" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor of Business Administration (BBA)</h5>
-            <p class="card-text">BBA is a three-year undergraduate course designed to build managerial, marketing, and entrepreneurial skills, offering students a strong foundation in business operations, leadership, and corporate decision-making strategies.</p>
-            <p class="card-text">3 Years | Fee: ₹45,000 /- year (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-      
-      <!-- hotel management  -->
-      
-      <div class="col-md-4 filter-item hotel" data-aos="zoom-in">
-        <div class="card course-card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Diploma in Hotel Management (DHM)</h5>
-            <p class="card-text">DHM is a  diploma course focusing on hospitality operations, food production, and customer service, training students for careers in hotels, restaurants, tourism, and event management industries worldwide.</p>
-            <p class="card-text">1 Year | Fee: ₹70,000 /- year (Included Power Degree Fee)</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- View More Button -->
-    <div class="text-center mt-4">
-      <button id="viewMoreBtn" class="btn btn-primary">View More Course</button>
-    </div>
-  </div>
-</section>
-
-<!-- JS -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  const items = document.querySelectorAll('.filter-item');
-  const viewMoreBtn = document.getElementById('viewMoreBtn');
-
-  const showMoreSchools = ["paramedical", "life", "agriculture"];
-  let currentFilter = 'paramedical';
-
-  function filterCourses(filter) {
-    currentFilter = filter;
-
-    // Show first 3 courses by default
-    let count = 0;
-    items.forEach(item => {
-      if (item.classList.contains(filter)) {
-        if (!item.classList.contains('hidden-course') && count < 3) {
-          item.style.display = 'block';
-          count++;
-        } else {
-          item.style.display = 'none';
-        }
-      } else {
-        item.style.display = 'none';
-      }
-    });
-
-    // Show View More button only if there are more than 3 courses
-    const hiddenCount = document.querySelectorAll(`.${filter}.hidden-course`).length;
-    viewMoreBtn.style.display = (hiddenCount > 0) ? 'inline-block' : 'none';
-    viewMoreBtn.textContent = 'View More Course';
-  }
-
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      filterCourses(btn.dataset.filter);
-    });
-  });
-
-  viewMoreBtn.addEventListener('click', () => {
-    const hiddenCourses = document.querySelectorAll(`.${currentFilter}.hidden-course`);
-    const isVisible = hiddenCourses[0].style.display === 'block';
-    hiddenCourses.forEach(course => {
-      course.style.display = isVisible ? 'none' : 'block';
-    });
-    viewMoreBtn.textContent = isVisible ? 'View More Course' : 'View Less';
-  });
-
-  filterCourses(currentFilter);
-});
-
-</script>
-
+   <?php require "programs.php"; ?>
+ 
 <section id="accreditations">
   <div class="container">
     <div class="row align-items-center">
@@ -1620,7 +939,7 @@ function handleScroll() {
 window.addEventListener("scroll", handleScroll);
 window.addEventListener("load", handleScroll);
 </script>
-<?php require "stacked-cards.php"; ?>
+
 <?php require "map.php"; ?>
 <hr>
 <?php require "testimoni-2.php"; ?>
@@ -1636,6 +955,7 @@ window.addEventListener("load", handleScroll);
   <!-- JS Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+ >
   <script>
     AOS.init({ duration: 1000, once: true });
 
@@ -1647,36 +967,36 @@ window.addEventListener("load", handleScroll);
     });
 
     // Filter logic
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const filterItems = document.querySelectorAll('.filter-item');
-    filterBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        filterBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const filter = btn.getAttribute('data-filter');
-        filterItems.forEach(item => {
-          if (filter === 'all' || item.classList.contains(filter)) {
-            item.style.display = 'block';
-          } else {
-            item.style.display = 'none';
-          }
-        });
-      });
-    });
+    // const filterBtns = document.querySelectorAll('.filter-btn');
+    // const filterItems = document.querySelectorAll('.filter-item');
+    // filterBtns.forEach(btn => {
+    //   btn.addEventListener('click', () => {
+    //     filterBtns.forEach(b => b.classList.remove('active'));
+    //     btn.classList.add('active');
+    //     const filter = btn.getAttribute('data-filter');
+    //     filterItems.forEach(item => {
+    //       if (filter === 'all' || item.classList.contains(filter)) {
+    //         item.style.display = 'block';
+    //       } else {
+    //         item.style.display = 'none';
+    //       }
+    //     });
+    //   });
+    // });
 
     // Fill modal with course details
-    const courseModal = document.getElementById('courseModal');
-    courseModal.addEventListener('show.bs.modal', function (e) {
-      const btn = e.relatedTarget;
-      const title = btn.getAttribute('data-title');
-      const duration = btn.getAttribute('data-duration');
-      const fee = btn.getAttribute('data-fee');
-      const desc = btn.getAttribute('data-description');
-      courseModal.querySelector('.modal-title').textContent = title;
-      document.getElementById('modal-duration').textContent = duration;
-      document.getElementById('modal-fee').textContent = fee;
-      document.getElementById('modal-description').textContent = desc;
-    });
+    // const courseModal = document.getElementById('courseModal');
+    // courseModal.addEventListener('show.bs.modal', function (e) {
+    //   const btn = e.relatedTarget;
+    //   const title = btn.getAttribute('data-title');
+    //   const duration = btn.getAttribute('data-duration');
+    //   const fee = btn.getAttribute('data-fee');
+    //   const desc = btn.getAttribute('data-description');
+    //   courseModal.querySelector('.modal-title').textContent = title;
+    //   document.getElementById('modal-duration').textContent = duration;
+    //   document.getElementById('modal-fee').textContent = fee;
+    //   document.getElementById('modal-description').textContent = desc;
+    // });
 
     // Animate stats counters
     function animateValue(id, start, end, duration) {
