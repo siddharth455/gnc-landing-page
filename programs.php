@@ -503,7 +503,7 @@ $courses_json = json_encode($courses);
         min-height: 50px;
     }
 
-    /* --- STYLES FOR POWER DEGREE TEXT --- */
+    
     .pgm-power-degree-text {
         font-size: 0.75em; 
         color: #390fde; 
