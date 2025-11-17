@@ -985,6 +985,7 @@ document.addEventListener("DOMContentLoaded", function(){
 <?php require "why-choose.php"; ?>
 <?php require "sample.php"; ?>
 <?php require "scholarship.php"; ?>
+<?php require "lab.php"; ?>
 
 <section class="admission-process" id="admissionProcess">
   <h2 class="section-title">Admission Process</h2>
