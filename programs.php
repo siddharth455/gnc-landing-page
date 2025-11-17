@@ -319,7 +319,7 @@ $courses_json = json_encode($courses);
 
     
     .pgm-finder-container {
-        max-width: 1200px;
+        max-width: 1400px;
         margin: 0 auto;
         padding: 20px;
         box-sizing: border-box;
@@ -339,7 +339,7 @@ $courses_json = json_encode($courses);
         background-color: var(--bg-color);
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
         border-radius: 8px;
-        padding: 0 60px 40px 60px; 
+        padding: 0 40px 40px 40px; 
         margin-top: -10px; 
         position: relative;
         z-index: 10;
@@ -464,8 +464,8 @@ $courses_json = json_encode($courses);
     /* 5. Course Results Area Styling */
     #course-results {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 25px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
         margin-top: 20px;
     }
     
@@ -483,7 +483,7 @@ $courses_json = json_encode($courses);
         background-color: #fff;
         border: 1px solid #eee;
         border-radius: 8px;
-        padding: 20px;
+        padding: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
         transition: transform 0.2s;
         display: flex;
