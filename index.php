@@ -722,34 +722,36 @@ document.addEventListener("DOMContentLoaded", function(){
 <?php require "scholarship.php"; ?>
 <?php require "lab.php"; ?>
 
+<!-- Horizontal Admission Process Timeline -->
 <section class="admission-process" id="admissionProcess">
   <h2 class="section-title">Admission Process</h2>
-  <div class="tree">
+
+  <div class="timeline-horizontal">
     <!-- Step 1 -->
-    <div class="branch left">
-      <div class="content">
-        <div class="circle">1</div>
-        <h3>Registration Form</h3>
-        <p>Fill out the registration form with your basic details to begin your admission journey.</p>
-      </div>
+    <div class="step">
+      <div class="circle">1</div>
+      <h3>Registration Form</h3>
+      <p>Fill out the registration form with your basic details to begin your admission journey.</p>
     </div>
+
+    <!-- Connector Line -->
+    <div class="line"></div>
 
     <!-- Step 2 -->
-    <div class="branch right">
-      <div class="content">
-        <div class="circle">2</div>
-        <h3>Application Form</h3>
-        <p>Provide academic details and upload required documents to complete your application.</p>
-      </div>
+    <div class="step">
+      <div class="circle">2</div>
+      <h3>Application Form</h3>
+      <p>Provide academic details and upload required documents to complete your application.</p>
     </div>
 
+    <!-- Connector Line -->
+    <div class="line"></div>
+
     <!-- Step 3 -->
-    <div class="branch left">
-      <div class="content">
-        <div class="circle">3</div>
-        <h3>Verification & Admission</h3>
-        <p>Your documents are verified, and upon approval, your admission is confirmed!</p>
-      </div>
+    <div class="step">
+      <div class="circle">3</div>
+      <h3>Verification & Admission</h3>
+      <p>Your documents are verified, and upon approval, your admission is confirmed!</p>
     </div>
   </div>
 </section>
@@ -757,183 +759,111 @@ document.addEventListener("DOMContentLoaded", function(){
 <style>
 .admission-process {
   color: #fff;
-  padding: 0px 20px;
+  padding: 40px 20px;
   position: relative;
+  text-align: center;
 }
 
 .section-title {
-  text-align: center;
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   color: #fff;
   letter-spacing: 1px;
 }
 
-/* Tree Line */
-.tree {
+/* Horizontal Timeline */
+.timeline-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
   position: relative;
-  max-width: 900px;
-  margin: auto;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.tree::before {
-  content: "";
-  position: absolute;
-  width: 3px;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.15);
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  transition: background 0.4s ease;
-}
-
-.tree.active::before {
-  background: linear-gradient(180deg, #00c6ff, #0072ff);
-  box-shadow: 0 0 20px rgba(0, 114, 255, 0.7);
-}
-
-/* Branches */
-.branch {
-  position: relative;
-  width: 50%;
-  padding: 20px 50px;
-  box-sizing: border-box;
-  opacity: 0;
-  transform: translateY(60px);
-  transition: all 0.8s ease-out;
-}
-
-.branch.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.branch.left {
-  left: 0;
-  text-align: right;
-}
-
-.branch.right {
-  left: 50%;
-  text-align: left;
-}
-
-.content {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 20px 25px;
-  border-radius: 12px;
-  position: relative;
-  width: 80%;
+.step {
+  width: 280px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
   backdrop-filter: blur(6px);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
 }
 
-.content:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0 25px rgba(0, 114, 255, 0.4);
+.step:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 114, 255, 0.4);
 }
 
-/* Number Circle */
 .circle {
-  position: absolute;
-  top: 20px;
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   background: linear-gradient(135deg, #00c6ff, #0072ff);
-  color: #fff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto 15px auto;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   box-shadow: 0 0 15px rgba(0, 114, 255, 0.8);
 }
 
-.branch.left .circle {
-  right: -70px;
+/* Connector Line */
+.line {
+  width: 80px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.25);
+  margin-top: 45px;
+  transition: background 0.4s ease;
 }
 
-.branch.right .circle {
-  left: -70px;
+/* Active Line Glow on Scroll */
+.timeline-horizontal.active .line {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  box-shadow: 0 0 15px rgba(0, 114, 255, 0.7);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .tree::before {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .branch {
-    position: relative;
-    width: 100%;
-    left: 0 !important;
-    padding: 40px 0;
-    text-align: center;
-    display: flex;
+/* Responsive: Convert to Vertical on Mobile */
+@media (max-width: 850px) {
+  .timeline-horizontal {
     flex-direction: column;
     align-items: center;
   }
 
-  .branch.left,
-  .branch.right {
-    left: 0 !important;
-    text-align: center;
-  }
-
-  .branch .circle {
-    position: static; /* <-- key fix: removes absolute positioning */
-    margin: 0 auto 20px auto;
-    transform: none;
-  }
-
-  .branch .content {
-    position: static;
-    width: 85%;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .content:hover {
-    transform: scale(1.03);
+  .line {
+    width: 3px;
+    height: 60px;
+    margin: 20px 0;
   }
 }
-
 </style>
 
 <script>
-const branches = document.querySelectorAll(".branch");
-const tree = document.querySelector(".tree");
+const steps = document.querySelectorAll(".step");
+const timeline = document.querySelector(".timeline-horizontal");
 
-function handleScroll() {
-  const triggerBottom = window.innerHeight * 0.8;
-  let anyVisible = false;
+function handleScrollHorizontal() {
+  const triggerBottom = window.innerHeight * 0.85;
+  let visible = false;
 
-  branches.forEach(branch => {
-    const rect = branch.getBoundingClientRect();
-    if (rect.top < triggerBottom && rect.bottom > 100) {
-      branch.classList.add("show");
-      anyVisible = true;
-    } else {
-      branch.classList.remove("show");
-    }
+  steps.forEach(step => {
+    const rect = step.getBoundingClientRect();
+    if (rect.top < triggerBottom) visible = true;
   });
 
-  // Highlight the vertical line if any step is visible
-  if (anyVisible) {
-    tree.classList.add("active");
-  } else {
-    tree.classList.remove("active");
-  }
+  if (visible) timeline.classList.add("active");
+  else timeline.classList.remove("active");
 }
 
-window.addEventListener("scroll", handleScroll);
-window.addEventListener("load", handleScroll);
+window.addEventListener("scroll", handleScrollHorizontal);
+window.addEventListener("load", handleScrollHorizontal);
 </script>
+
 
 <?php require "map.php"; ?>
 <hr>
